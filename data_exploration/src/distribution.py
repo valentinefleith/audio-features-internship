@@ -6,7 +6,9 @@ python3 distribution.py -t <plottype> -p <part> -c <dimension>
 
 You can run :
 python3 distribution.py -h
-to see what are the required arguments. If no arguments are specified, default values are : -t raw, -p full, -c persuasiveness
+to see what are the required arguments. If no arguments are specified, default values are : -t raw, -p full, -c persuasiveness.
+
+Don't hesitate to update the path of the annotation file according to your file structure before running it!
 """
 
 
@@ -15,8 +17,7 @@ import argparse
 import matplotlib.pyplot as plt
 import numpy as np
 
-ANNOTATION_SEP_PATH = "data/annotations.csv"
-ANNOTATION_RSM_PATH = "data/annotations_rsm.csv"
+ANNOTATION_PATH = "raw_data/annotations.csv"
 
 
 def get_ratings_by_raters(df, rating_dimension):
@@ -81,7 +82,7 @@ def plot_distribution_rms(df, rating_dimension):
 
 
 def main(plottype, part, dimension):
-    ratings = pd.read_csv(ANNOTATION_SEP_PATH, sep=";", encoding="ISO-8859-1")
+    ratings = pd.read_csv(ANNOTATION_PATH, sep=";", encoding="ISO-8859-1")
     ratings = ratings.query("`clip` == @part")[
         [
             "Answer.Competence",
