@@ -39,7 +39,7 @@ def plot_distribution_raw(df, rating_dimension):
     plt.show()
 
 
-def plot_distribution_means(df, rating_dimension):
+def plot_distribution_means(df):
     dimensions = ["Answer.Competence", "Answer.Engagement", "Answer.Persuasiveness"]
     averages = []
     for rating_dimension in dimensions:
@@ -56,11 +56,11 @@ def plot_distribution_means(df, rating_dimension):
     bins = np.linspace(1, 5, 9)
     plt.hist(averages, bins, label=dimensions, rwidth=0.90)
     plt.legend(loc="upper left")
-    plt.title(f"Distribution of Average of every dimension")
+    plt.title("Distribution of Average of every dimension")
     plt.show()
 
 
-def plot_distribution_rms(df, rating_dimension):
+def plot_distribution_rms(df):
     dimensions = ["Answer.Competence", "Answer.Engagement", "Answer.Persuasiveness"]
     rms_values = []
     for rating_dimension in dimensions:
@@ -77,7 +77,30 @@ def plot_distribution_rms(df, rating_dimension):
     bins = np.linspace(1, 5, 9)
     plt.hist(rms_values, bins, label=dimensions, rwidth=0.90)
     plt.legend(loc="upper left")
-    plt.title(f"Distribution of RMS of every dimension")
+    plt.title("Distribution of RMS of every dimension")
+    plt.show()
+
+
+def plot_distribution_harmonic_mean(df):
+    dimensions = ["Answer.Competence", "Answer.Engagement", "Answer.Persuasiveness"]
+    harmonic_means = []
+    for rating_dimension in dimensions:
+        ratings = get_ratings_by_raters(df, rating_dimension)
+        concatenated = pd.concat(
+            [
+                ratings[0].reset_index()[[rating_dimension]],
+                ratings[1].reset_index()[[rating_dimension]],
+                ratings[2].reset_index()[[rating_dimension]],
+            ],
+            axis=1,
+        )
+        harmonic_means.append(
+            len(concatenated.columns) / (1 / concatenated).sum(axis=1)
+        )
+    bins = np.linspace(1, 5, 9)
+    plt.hist(harmonic_means, bins, label=dimensions, rwidth=0.90)
+    plt.legend(loc="upper left")
+    plt.title("Distribution of Harmonic means of every dimension")
     plt.show()
 
 
@@ -90,19 +113,20 @@ def main(plottype, part, dimension):
             "Answer.Persuasiveness",
         ]
     ].reset_index()
-    # rsm = pd.read_csv(ANNOTATION_RSM_PATH, sep=";")
     rating_dimension = "Answer." + dimension.title()
     if plottype == "raw":
         plot_distribution_raw(ratings, rating_dimension)
     elif plottype == "means":
-        plot_distribution_means(ratings, rating_dimension)
+        plot_distribution_means(ratings)
     elif plottype == "rms":
-        plot_distribution_rms(ratings, rating_dimension)
+        plot_distribution_rms(ratings)
+    elif plottype == "hmeans":
+        plot_distribution_harmonic_mean(ratings)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--plottype", choices=["raw", "means", "rms"])
+    parser.add_argument("-t", "--plottype", choices=["raw", "means", "rms", "hmeans"])
     parser.add_argument("-p", "--part", choices=["beginning", "middle", "end"])
     parser.add_argument(
         "-c",
