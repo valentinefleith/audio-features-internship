@@ -42,6 +42,17 @@ def get_mean_scores(ratings):
     return mean_scores
 
 
+def get_harmonic_mean_scores(ratings):
+    scores = []
+    for dim in DIMENSIONS:
+        df = get_ratings_by_raters(ratings, dim)
+        concatenated = pd.concat([df[0][[dim]], df[1][[dim]], df[2][[dim]]], axis=1)
+        scores.append(len(concatenated.columns) / (1 / concatenated).sum(axis=1))
+    harmonic_mean_scores = pd.concat(scores, axis=1)
+    harmonic_mean_scores.columns = DIMENSIONS
+    return harmonic_mean_scores
+
+
 def get_rms_scores(ratings):
     scores = []
     for dim in DIMENSIONS:
@@ -67,20 +78,26 @@ def main(part, method):
     clip_names = ratings["Input.name"].drop_duplicates().reset_index(drop=True)
     if method == "mean":
         aggregated_scores = get_mean_scores(ratings)
-    else:
+    elif method == "rms":
         aggregated_scores = get_rms_scores(ratings)
+    else:
+        aggregated_scores = get_harmonic_mean_scores(ratings)
     final_df = pd.concat([clip_names, aggregated_scores], axis=1)
     final_df.insert(1, "clip", part)
     print(final_df)
     # UNCOMMENT TO SAVE THE CSV:
-    # final_df.to_csv(f"data_exploration/new_csvfiles/{part}/{part[:3].upper()}_{method}.csv", sep=";", index=False)
+    # final_df.to_csv(
+    #     f"data_exploration/new_csvfiles/{part}/{part[:3].upper()}_{method}.csv",
+    #     sep=";",
+    #     index=False,
+    # )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-p", "--part", choices=["beginning", "middle", "end", "full"])
     parser.add_argument(
-        "-m", "--aggregation_method", choices=["mean", "rms"], required=True
+        "-m", "--aggregation_method", choices=["mean", "rms", "hmeans"], required=True
     )
     args = parser.parse_args()
     if args.part is None:
