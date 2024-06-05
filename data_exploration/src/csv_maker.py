@@ -1,3 +1,16 @@
+"""
+This script processes and analyzes ratings data from a CSV file. It calculates and aggregates scores using either mean or RMS (Root Mean Square) methods for various dimensions of answers. The script is designed to handle different parts of video clips (beginning, middle, end, full) and produces a consolidated DataFrame with aggregated scores.
+The script only prints the csv but can also save it (commented line in main()).
+
+To run this script:
+python3 csv_maker.py -p <part> -m <aggregation_method>
+
+You can run:
+python3 csv_maker.py -h
+to see what are the required arguments. Method is mandatory, but default part is full.
+"""
+
+
 import pandas as pd
 import numpy as np
 import argparse
