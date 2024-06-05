@@ -1,3 +1,15 @@
+"""
+This script processes and visualizes ratings data from a CSV file. It provides options to plot the distribution of raw ratings, mean ratings, or RMS (Root Mean Square) ratings for specific dimensions (competence, engagement, persuasiveness) of answers, filtered by different parts of a clip (beginning, middle, end).
+
+To run this script :
+python3 distribution.py -t <plottype> -p <part> -c <dimension>
+
+You can run :
+python3 distribution.py -h
+to see what are the required arguments. If no arguments are specified, default values are : -t raw, -p full, -c persuasiveness
+"""
+
+
 import pandas as pd
 import argparse
 import matplotlib.pyplot as plt
