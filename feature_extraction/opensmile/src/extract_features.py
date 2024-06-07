@@ -14,6 +14,16 @@ import glob
 import pandas as pd
 
 
+def create_csv(features):
+    all_features = pd.concat(features).reset_index()
+    all_features = all_features.drop(columns=["start", "end"])
+    all_features["file"] = (
+        all_features["file"].str.split("/").str[-1].str.split("_").str[-1]
+    )
+    print(all_features)
+    all_features.to_csv("features.csv")
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Usage: python3 extract_features.py /path/to/corpus_dir")
@@ -25,8 +35,7 @@ def main():
     features = []
     for audio in audio_paths:
         features.append(smile.process_file(audio))
-    all_features = pd.concat(features)
-    all_features.to_csv(f"features.csv")
+    create_csv(features)
 
 
 if __name__ == "__main__":
