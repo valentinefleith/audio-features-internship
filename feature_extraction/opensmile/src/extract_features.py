@@ -21,25 +21,25 @@ from categories import CATEGORIES
 def split_feature_categories(features):
     for cat, feat in CATEGORIES.items():
         only_category = pd.concat([features["file"], features[feat]], axis=1)
-        only_category.to_csv(f"features_{cat}.csv")
+        only_category.to_csv(f"features_full_{cat}.csv")
 
 
 def create_csv(features, to_split=False):
     all_features = pd.concat(features).reset_index()
     all_features = all_features.drop(columns=["start", "end"])
     all_features["file"] = (
-        all_features["file"].str.split("/").str[-1].str.split("_").str[-1]
+        all_features["file"].str.split("/").str[-1].str.split(".").str[0]
     )
     print(all_features)
     if to_split:
         return split_feature_categories(all_features)
-    all_features.to_csv("features.csv")
+    all_features.to_csv("features_full.csv")
 
 
 def main():
     if len(sys.argv) < 2:
         sys.exit("Usage: python3 extract_features.py /path/to/corpus_dir")
-    audio_paths = glob.glob(f"{sys.argv[1]}/wav/*.wav")
+    audio_paths = glob.glob(f"{sys.argv[1]}/wav/full/*.wav")
     smile = opensmile.Smile(
         feature_set=opensmile.FeatureSet.eGeMAPSv02,
         feature_level=opensmile.FeatureLevel.Functionals,
