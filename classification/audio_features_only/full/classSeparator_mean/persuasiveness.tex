@@ -1,3 +1,5 @@
+\usepackage{makecell}
+
 \begin{table}[h!]
 \centering
 \begin{tabular}{|l|c|c|c|c|}
@@ -7,9 +9,10 @@ LVO Accuracy Mean         & 0.5968          & 0.5645          & 0.5605          
 LVO Accuracy CI           & (0.5356, 0.6579)& (0.5027, 0.6263)& (0.4986, 0.6224)& (0.5356, 0.6579)\\ \hline
 F1-Score Mean             & 0.7443          & 0.6724          & 0.6376          & 0.7445          \\ \hline
 F1-Score CI               & (0.7304, 0.7582)& (0.6591, 0.6858)& (0.6062, 0.6691)& (0.7305, 0.7584)\\ \hline
+Best Parameters           & \makecell[l]{\{'C': 1,\\ 'gamma': 0.001,\\ 'kernel': 'rbf',\\ 'probability': True\}} & \makecell[l]{\{'bootstrap': True,\\ 'criterion': 'gini',\\ 'max\_depth': None,\\ 'max\_features': 20,\\ 'min\_samples\_leaf': 3,\\ 'min\_samples\_split': 3,\\ 'n\_estimators': 300\}} & \{\} & \makecell[l]{\{'C': 0.001,\\ 'max\_iter': 1000,\\ 'multi\_class': 'ovr',\\ 'penalty': 'l1',\\ 'solver': 'liblinear'\}} \\ \hline
 Best Train Score          & 0.5958          & 0.6013          & 0.5556          & 0.5959          \\ \hline
 Best Test Score           & 0.6000          & 0.6200          & 0.6000          & 0.6000          \\ \hline
 \end{tabular}
-\caption{Persuasiveness Results (mean as class separator)}
+\caption{Persuasiveness Results}
 \label{table:persuasiveness}
 \end{table}
