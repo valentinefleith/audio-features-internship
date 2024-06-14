@@ -1,0 +1,8 @@
+Metric,SVM,RFC,NB,LR
+LVO Accuracy Mean,0.5766,0.5282,0.5484,0.5040
+LVO Accuracy CI,"(0.5150, 0.6382)","(0.4660, 0.5905)","(0.4863, 0.6104)","(0.4417, 0.5664)"
+F1-Score Mean,0.7246,0.6424,0.5796,0.5816
+F1-Score CI,"(0.7125, 0.7367)","(0.6279, 0.6569)","(0.5490, 0.6102)","(0.5629, 0.6004)"
+Best Parameters,"{'C': 1, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}","{'bootstrap': True, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 300}","{}","{'C': 1.0, 'max_iter': 1000, 'multi_class': 'ovr', 'penalty': 'l1', 'solver': 'liblinear'}"
+Best Train Score,0.5758,0.6109,0.5403,0.6013
+Best Test Score,0.5800,0.4400,0.4000,0.4200
