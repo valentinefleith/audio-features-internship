@@ -1,0 +1,17 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Metric}           & \textbf{SVM}    & \textbf{NB}     & \textbf{RFC}    & \textbf{LR}     \\ \hline
+LVO Accuracy Mean         & 0.525           & 0.4417          & 0.5083          & 0.4833          \\ \hline
+LVO Accuracy CI           & (0.4353, 0.6147)& (0.3524, 0.5309)& (0.4185, 0.5982)& (0.3935, 0.5731)\\ \hline
+F1-Score Mean             & 0.6185          & 0.4589          & 0.5497          & 0.443           \\ \hline
+F1-Score CI               & (0.5626, 0.6744)& (0.4184, 0.4995)& (0.5253, 0.5742)& (0.4083, 0.4778)\\ \hline
+Best Parameters           & \makecell[l]{\{'C': 1,\\ 'gamma': 0.001,\\ 'kernel': 'rbf',\\ 'probability': True\}} & \{\} & \makecell[l]{\{'bootstrap': True,\\ 'criterion': 'gini',\\ 'max\_depth': None,\\ 'max\_features': 20,\\ 'min\_samples\_leaf': 1,\\ 'min\_samples\_split': 3,\\ 'n\_estimators': 400\}} & \makecell[l]{\{'C': 10,\\ 'max\_iter': 1000,\\ 'multi\_class': 'ovr',\\ 'penalty': 'l2',\\ 'solver': 'liblinear'\}} \\ \hline
+Best Train Score          & 0.5222          & 0.4379          & 0.5211          & 0.5226          \\ \hline
+Best Test Score           & 0.5417          & 0.4583          & 0.5417          & 0.4583          \\ \hline
+\end{tabular}
+\caption{Engagement Results}
+\label{table:engagement}
+\end{table}
+
