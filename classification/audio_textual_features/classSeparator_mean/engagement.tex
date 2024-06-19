@@ -2,14 +2,14 @@
 \centering
 \begin{tabular}{|l|c|c|c|c|}
 \hline
-\textbf{Metric} & \textbf{NB} & \textbf{RFC} & \textbf{LR} & \textbf{SVM} \\ \hline
-LVO Accuracy Mean & 0.4298 & 0.5482 & 0.557 & 0.5658 \\ \hline
-LVO Accuracy CI & (0.3654, 0.4942) & (0.4835, 0.613) & (0.4924, 0.6216) & (0.5013, 0.6303) \\ \hline
-F1-Score Mean & 0.5261 & 0.1894 & 0.0024 & 0.0 \\ \hline
-F1-score CI & (0.4968, 0.5554) & (0.1589, 0.2199) & (-0.0023, 0.007) & (nan, nan) \\ \hline
-Best Parameters & \makecell[l]{\{\}} & \makecell[l]{\{'bootstrap': True,\\ 'criterion': 'gini',\\ 'max\_depth': None,\\ 'max\_features': 10,\\ 'min\_samples\_leaf': 10,\\ 'min\_samples\_split': 3,\\ 'n\_estimators': 400\}} & \makecell[l]{\{'C': 0.001,\\ 'max\_iter': 1000,\\ 'multi\_class': 'ovr',\\ 'penalty': 'l1',\\ 'solver': 'liblinear'\}} & \makecell[l]{\{'C': 1,\\ 'gamma': 0.001,\\ 'kernel': 'rbf',\\ 'probability': True\}} \\ \hline
-Best Train Score & 0.5497 & 0.5709 & 0.5659 & 0.5658 \\ \hline
-Best Test Score & 0.5 & 0.587 & 0.5435 & 0.5652 \\ \hline
+\textbf{Metric} & \textbf{SVM} & \textbf{NB} & \textbf{RFC} & \textbf{LR} \\ \hline
+LVO Accuracy Mean & 0.5658 & 0.4298 & 0.5219 & 0.557 \\ \hline
+LVO Accuracy CI & (0.5013, 0.6303) & (0.3654, 0.4942) & (0.4569, 0.5869) & (0.4924, 0.6216) \\ \hline
+F1-Score Mean & 0.7375 & 0.3284 & 0.6546 & 0.7198 \\ \hline
+F1-score CI & (0.7218, 0.7531) & (0.2942, 0.3626) & (0.6412, 0.6681) & (0.6934, 0.7462) \\ \hline
+Best Parameters & \makecell[l]{\{'C': 1,\\ 'gamma': 0.001,\\ 'kernel': 'rbf',\\ 'probability': True\}} & \makecell[l]{\{\}} & \makecell[l]{\{'bootstrap': True,\\ 'criterion': 'gini',\\ 'max\_depth': None,\\ 'max\_features': 20,\\ 'min\_samples\_leaf': 10,\\ 'min\_samples\_split': 3,\\ 'n\_estimators': 400\}} & \makecell[l]{\{'C': 0.001,\\ 'max\_iter': 1000,\\ 'multi\_class': 'ovr',\\ 'penalty': 'l1',\\ 'solver': 'liblinear'\}} \\ \hline
+Best Train Score & 0.5658 & 0.4997 & 0.5826 & 0.5715 \\ \hline
+Best Test Score & 0.5652 & 0.3913 & 0.5435 & 0.5652 \\ \hline
 \end{tabular}
 \caption{Engagement Results}
 \label{table:table:engagement}

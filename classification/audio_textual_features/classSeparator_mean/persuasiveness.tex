@@ -2,14 +2,14 @@
 \centering
 \begin{tabular}{|l|c|c|c|c|}
 \hline
-\textbf{Metric} & \textbf{NB} & \textbf{RFC} & \textbf{LR} & \textbf{SVM} \\ \hline
-LVO Accuracy Mean & 0.3947 & 0.5482 & 0.5833 & 0.5833 \\ \hline
-LVO Accuracy CI & (0.3312, 0.4583) & (0.4835, 0.613) & (0.5192, 0.6475) & (0.5192, 0.6475) \\ \hline
-F1-Score Mean & 0.5346 & 0.1815 & 0.0 & 0.0 \\ \hline
-F1-score CI & (0.5127, 0.5565) & (0.1504, 0.2126) & (nan, nan) & (nan, nan) \\ \hline
-Best Parameters & \makecell[l]{\{\}} & \makecell[l]{\{'bootstrap': True,\\ 'criterion': 'gini',\\ 'max\_depth': None,\\ 'max\_features': 'sqrt',\\ 'min\_samples\_leaf': 10,\\ 'min\_samples\_split': 2,\\ 'n\_estimators': 400\}} & \makecell[l]{\{'C': 0.001,\\ 'max\_iter': 1000,\\ 'multi\_class': 'ovr',\\ 'penalty': 'l1',\\ 'solver': 'liblinear'\}} & \makecell[l]{\{'C': 1,\\ 'gamma': 0.001,\\ 'kernel': 'rbf',\\ 'probability': True\}} \\ \hline
-Best Train Score & 0.4449 & 0.5992 & 0.5824 & 0.5825 \\ \hline
-Best Test Score & 0.3478 & 0.587 & 0.587 & 0.587 \\ \hline
+\textbf{Metric} & \textbf{SVM} & \textbf{NB} & \textbf{RFC} & \textbf{LR} \\ \hline
+LVO Accuracy Mean & 0.5833 & 0.3947 & 0.5526 & 0.5395 \\ \hline
+LVO Accuracy CI & (0.5192, 0.6475) & (0.3312, 0.4583) & (0.4879, 0.6173) & (0.4746, 0.6043) \\ \hline
+F1-Score Mean & 0.7341 & 0.1102 & 0.6834 & 0.6284 \\ \hline
+F1-score CI & (0.7196, 0.7486) & (0.0868, 0.1336) & (0.6704, 0.6965) & (0.6107, 0.6462) \\ \hline
+Best Parameters & \makecell[l]{\{'C': 1,\\ 'gamma': 0.001,\\ 'kernel': 'rbf',\\ 'probability': True\}} & \makecell[l]{\{\}} & \makecell[l]{\{'bootstrap': True,\\ 'criterion': 'gini',\\ 'max\_depth': None,\\ 'max\_features': 'sqrt',\\ 'min\_samples\_leaf': 10,\\ 'min\_samples\_split': 2,\\ 'n\_estimators': 300\}} & \makecell[l]{\{'C': 0.001,\\ 'max\_iter': 1000,\\ 'multi\_class': 'ovr',\\ 'penalty': 'l2',\\ 'solver': 'liblinear'\}} \\ \hline
+Best Train Score & 0.5825 & 0.3904 & 0.5872 & 0.6098 \\ \hline
+Best Test Score & 0.587 & 0.413 & 0.5435 & 0.3913 \\ \hline
 \end{tabular}
 \caption{Persuasiveness Results}
 \label{table:table:persuasiveness}
