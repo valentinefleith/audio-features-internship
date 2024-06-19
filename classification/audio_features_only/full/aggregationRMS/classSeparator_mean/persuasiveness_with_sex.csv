@@ -1,8 +1,8 @@
 Metric,SVM,NB,RFC,LR
-LVO Accuracy Mean,0.5968,0.3871,0.5242,0.5806
-LVO Accuracy CI,"(0.5356, 0.6579)","(0.3264, 0.4478)","(0.4619, 0.5865)","(0.5191, 0.6422)"
-F1-Score Mean,0.0,0.4396,0.1866,0.127
-F1-score CI,"(nan, nan)","(0.4121, 0.4672)","(0.1598, 0.2135)","(0.1058, 0.1482)"
-Best Parameters,"{'C': 1, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}",{},"{'bootstrap': True, 'criterion': 'gini', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 10, 'min_samples_split': 3, 'n_estimators': 300}","{'C': 0.01, 'max_iter': 1000, 'multi_class': 'ovr', 'penalty': 'l1', 'solver': 'liblinear'}"
-Best Train Score,0.5958,0.4147,0.576,0.6114
-Best Test Score,0.6,0.34,0.62,0.54
+LVO Accuracy Mean,0.5968,0.3871,0.5323,0.5927
+LVO Accuracy CI,"(0.5356, 0.6579)","(0.3264, 0.4478)","(0.47, 0.5945)","(0.5315, 0.654)"
+F1-Score Mean,0.752,0.3172,0.6543,0.7514
+F1-score CI,"(0.7392, 0.7649)","(0.2779, 0.3565)","(0.6385, 0.6701)","(0.7387, 0.7642)"
+Best Parameters,"{'C': 1, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}",{},"{'bootstrap': True, 'criterion': 'gini', 'max_depth': None, 'max_features': 20, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 300}","{'C': 0.001, 'max_iter': 1000, 'multi_class': 'ovr', 'penalty': 'l1', 'solver': 'liblinear'}"
+Best Train Score,0.5958,0.4244,0.5909,0.5959
+Best Test Score,0.6,0.4,0.56,0.6
