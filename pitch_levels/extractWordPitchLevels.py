@@ -1,11 +1,11 @@
+import os
 import sys
 import glob
+import json
 import parselmouth as pm
 import textgrids as tgt
 
-
 PITCH_LEVELS = {"high": "H", "low": "L", "highrise": "HR", "highfall": "HF"}
-
 
 class Word:
     """
@@ -30,6 +30,11 @@ class Word:
     def __str__(self):
         return f"Mot: {self.word}\nIndex: {self.tgt_index}\nXmin: {self.xmin}\nXmax: {self.xmax}"
 
+    def to_dict(self):
+        return {
+            "word": self.word,
+            "index": self.tgt_index,
+        }
 
 def already_stored(word_text, word_list):
     """
@@ -46,7 +51,6 @@ def already_stored(word_text, word_list):
         if word.word == word_text:
             return True
     return False
-
 
 def find_words_in_intervals(time_intervals, words):
     """
@@ -67,7 +71,6 @@ def find_words_in_intervals(time_intervals, words):
                     word_list.append(Word(word, index))
                 break
     return word_list
-
 
 def extract_words_by_pitch_level(level, transcript_paths, pitch_paths):
     """
@@ -93,6 +96,16 @@ def extract_words_by_pitch_level(level, transcript_paths, pitch_paths):
         words_by_pitch_level.append(find_words_in_intervals(time_intervals, words))
     return words_by_pitch_level
 
+def save_to_json(data, filepath):
+    """
+    Saves the given data to a JSON file.
+
+    Args:
+        data (dict): The data to save.
+        filepath (str): The path to the JSON file.
+    """
+    with open(filepath, 'w') as json_file:
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
 
 def main():
     """
@@ -109,14 +122,18 @@ def main():
         [path for path in textgrid_paths if path.endswith("polytonia.TextGrid")]
     )
 
-    for level in PITCH_LEVELS.keys():
-        words_by_level = extract_words_by_pitch_level(
-            level, transcript_paths, pitch_paths
-        )
-        for words in words_by_level:
-            print(f"{level.capitalize()} :")
-            print(words)
-
+    for transcript_path in transcript_paths:
+        base_filename = os.path.splitext(os.path.basename(transcript_path))[0]
+        result = {}
+        
+        for level in PITCH_LEVELS.keys():
+            words_by_level = extract_words_by_pitch_level(
+                level, [transcript_path], [pitch_paths[transcript_paths.index(transcript_path)]]
+            )
+            result[level] = [word.to_dict() for word in words_by_level[0]]
+        
+        save_to_json(result, f"{base_filename}_words.json")
 
 if __name__ == "__main__":
     main()
+

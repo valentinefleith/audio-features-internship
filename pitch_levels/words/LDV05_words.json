@@ -1,0 +1,794 @@
+{
+    "high": [
+        {
+            "word": "entière",
+            "index": 33
+        },
+        {
+            "word": "serait",
+            "index": 34
+        },
+        {
+            "word": "ce",
+            "index": 38
+        },
+        {
+            "word": "qui",
+            "index": 39
+        },
+        {
+            "word": "et",
+            "index": 49
+        },
+        {
+            "word": "mêmes",
+            "index": 53
+        },
+        {
+            "word": "dans",
+            "index": 70
+        },
+        {
+            "word": "de",
+            "index": 73
+        },
+        {
+            "word": "filles",
+            "index": 85
+        },
+        {
+            "word": "réalité",
+            "index": 96
+        },
+        {
+            "word": "le",
+            "index": 102
+        },
+        {
+            "word": "la",
+            "index": 112
+        },
+        {
+            "word": "vous",
+            "index": 121
+        },
+        {
+            "word": "sont",
+            "index": 125
+        },
+        {
+            "word": "ces",
+            "index": 126
+        },
+        {
+            "word": "rapports",
+            "index": 127
+        },
+        {
+            "word": "première",
+            "index": 129
+        },
+        {
+            "word": "cas",
+            "index": 133
+        },
+        {
+            "word": "corps",
+            "index": 135
+        },
+        {
+            "word": "sujet",
+            "index": 138
+        },
+        {
+            "word": "ou",
+            "index": 149
+        },
+        {
+            "word": "deuxième",
+            "index": 167
+        },
+        {
+            "word": "complexe",
+            "index": 173
+        },
+        {
+            "word": "plusieurs",
+            "index": 194
+        },
+        {
+            "word": "serviteurs",
+            "index": 195
+        },
+        {
+            "word": "en",
+            "index": 199
+        },
+        {
+            "word": "serviteur",
+            "index": 204
+        },
+        {
+            "word": "chanson",
+            "index": 211
+        },
+        {
+            "word": "son",
+            "index": 215
+        },
+        {
+            "word": "à",
+            "index": 224
+        },
+        {
+            "word": "fois",
+            "index": 226
+        },
+        {
+            "word": "l'objet",
+            "index": 228
+        },
+        {
+            "word": "aussi",
+            "index": 248
+        },
+        {
+            "word": "mobile",
+            "index": 250
+        },
+        {
+            "word": "plus",
+            "index": 267
+        },
+        {
+            "word": "ici",
+            "index": 273
+        },
+        {
+            "word": "voyez",
+            "index": 291
+        },
+        {
+            "word": "je",
+            "index": 292
+        },
+        {
+            "word": "comprendre",
+            "index": 295
+        },
+        {
+            "word": "tous",
+            "index": 297
+        },
+        {
+            "word": "croyez",
+            "index": 309
+        },
+        {
+            "word": "archives",
+            "index": 327
+        },
+        {
+            "word": "d'affaires",
+            "index": 336
+        },
+        {
+            "word": "judiciaires",
+            "index": 337
+        },
+        {
+            "word": "transcrit",
+            "index": 342
+        },
+        {
+            "word": "enregistré",
+            "index": 348
+        },
+        {
+            "word": "calculs",
+            "index": 363
+        },
+        {
+            "word": "femmes",
+            "index": 391
+        },
+        {
+            "word": "dépend",
+            "index": 392
+        },
+        {
+            "word": "se",
+            "index": 399
+        },
+        {
+            "word": "côté",
+            "index": 412
+        },
+        {
+            "word": "communes",
+            "index": 444
+        },
+        {
+            "word": "surveillés",
+            "index": 449
+        },
+        {
+            "word": "notamment",
+            "index": 451
+        },
+        {
+            "word": "ci",
+            "index": 471
+        },
+        {
+            "word": "l'heure",
+            "index": 481
+        },
+        {
+            "word": "sous",
+            "index": 495
+        },
+        {
+            "word": "très",
+            "index": 507
+        },
+        {
+            "word": "cuise",
+            "index": 513
+        },
+        {
+            "word": "seulement",
+            "index": 524
+        },
+        {
+            "word": "obtenir",
+            "index": 552
+        },
+        {
+            "word": "pas",
+            "index": 581
+        },
+        {
+            "word": "soulever",
+            "index": 592
+        },
+        {
+            "word": "conception",
+            "index": 597
+        },
+        {
+            "word": "rapport",
+            "index": 603
+        },
+        {
+            "word": "beaucoup",
+            "index": 619
+        },
+        {
+            "word": "d'amis",
+            "index": 620
+        },
+        {
+            "word": "test",
+            "index": 630
+        },
+        {
+            "word": "ton",
+            "index": 659
+        },
+        {
+            "word": "part",
+            "index": 660
+        },
+        {
+            "word": "moi",
+            "index": 679
+        }
+    ],
+    "low": [
+        {
+            "word": "pouvoir",
+            "index": 7
+        },
+        {
+            "word": "yeux",
+            "index": 10
+        },
+        {
+            "word": "entière",
+            "index": 33
+        },
+        {
+            "word": "par",
+            "index": 37
+        },
+        {
+            "word": "se",
+            "index": 40
+        },
+        {
+            "word": "passe",
+            "index": 41
+        },
+        {
+            "word": "les",
+            "index": 44
+        },
+        {
+            "word": "des",
+            "index": 46
+        },
+        {
+            "word": "cela",
+            "index": 50
+        },
+        {
+            "word": "à",
+            "index": 54
+        },
+        {
+            "word": "y",
+            "index": 64
+        },
+        {
+            "word": "a",
+            "index": 65
+        },
+        {
+            "word": "environ",
+            "index": 66
+        },
+        {
+            "word": "royaume",
+            "index": 72
+        },
+        {
+            "word": "sous",
+            "index": 81
+        },
+        {
+            "word": "en",
+            "index": 95
+        },
+        {
+            "word": "réalité",
+            "index": 96
+        },
+        {
+            "word": "rapports",
+            "index": 100
+        },
+        {
+            "word": "corps",
+            "index": 103
+        },
+        {
+            "word": "féminin",
+            "index": 104
+        },
+        {
+            "word": "crime",
+            "index": 109
+        },
+        {
+            "word": "vais",
+            "index": 120
+        },
+        {
+            "word": "montrer",
+            "index": 122
+        },
+        {
+            "word": "qu'elles",
+            "index": 124
+        },
+        {
+            "word": "première",
+            "index": 129
+        },
+        {
+            "word": "exemple",
+            "index": 130
+        },
+        {
+            "word": "le",
+            "index": 132
+        },
+        {
+            "word": "du",
+            "index": 134
+        },
+        {
+            "word": "sujet",
+            "index": 138
+        },
+        {
+            "word": "engendrer",
+            "index": 153
+        },
+        {
+            "word": "enfants",
+            "index": 155
+        },
+        {
+            "word": "deuxième",
+            "index": 167
+        },
+        {
+            "word": "plus",
+            "index": 172
+        },
+        {
+            "word": "complexe",
+            "index": 173
+        },
+        {
+            "word": "charge",
+            "index": 178
+        },
+        {
+            "word": "que",
+            "index": 185
+        },
+        {
+            "word": "vie",
+            "index": 186
+        },
+        {
+            "word": "femme",
+            "index": 189
+        },
+        {
+            "word": "plusieurs",
+            "index": 194
+        },
+        {
+            "word": "serviteurs",
+            "index": 195
+        },
+        {
+            "word": "serviteur",
+            "index": 204
+        },
+        {
+            "word": "faire",
+            "index": 208
+        },
+        {
+            "word": "la",
+            "index": 225
+        },
+        {
+            "word": "premier",
+            "index": 230
+        },
+        {
+            "word": "l'objet",
+            "index": 233
+        },
+        {
+            "word": "mais",
+            "index": 242
+        },
+        {
+            "word": "son",
+            "index": 265
+        },
+        {
+            "word": "ni",
+            "index": 268
+        },
+        {
+            "word": "ici",
+            "index": 273
+        },
+        {
+            "word": "valet",
+            "index": 275
+        },
+        {
+            "word": "même",
+            "index": 283
+        },
+        {
+            "word": "voyez",
+            "index": 291
+        },
+        {
+            "word": "sais",
+            "index": 293
+        },
+        {
+            "word": "de",
+            "index": 294
+        },
+        {
+            "word": "comprendre",
+            "index": 295
+        },
+        {
+            "word": "comment",
+            "index": 296
+        },
+        {
+            "word": "ces",
+            "index": 299
+        },
+        {
+            "word": "autour",
+            "index": 303
+        },
+        {
+            "word": "et",
+            "index": 308
+        },
+        {
+            "word": "moi",
+            "index": 310
+        },
+        {
+            "word": "je",
+            "index": 322
+        },
+        {
+            "word": "aux",
+            "index": 326
+        },
+        {
+            "word": "archives",
+            "index": 327
+        },
+        {
+            "word": "nationales",
+            "index": 328
+        },
+        {
+            "word": "judiciaires",
+            "index": 337
+        },
+        {
+            "word": "ai",
+            "index": 341
+        },
+        {
+            "word": "ma",
+            "index": 350
+        },
+        {
+            "word": "qu'en",
+            "index": 371
+        },
+        {
+            "word": "histoire",
+            "index": 372
+        },
+        {
+            "word": "final",
+            "index": 383
+        },
+        {
+            "word": "constate",
+            "index": 386
+        },
+        {
+            "word": "l'identité",
+            "index": 389
+        },
+        {
+            "word": "dépend",
+            "index": 392
+        },
+        {
+            "word": "souvent",
+            "index": 393
+        },
+        {
+            "word": "nous",
+            "index": 413
+        },
+        {
+            "word": "avons",
+            "index": 414
+        },
+        {
+            "word": "gouverneur",
+            "index": 421
+        },
+        {
+            "word": "femmes",
+            "index": 443
+        },
+        {
+            "word": "celles",
+            "index": 446
+        },
+        {
+            "word": "sont",
+            "index": 448
+        },
+        {
+            "word": "notamment",
+            "index": 451
+        },
+        {
+            "word": "hommes",
+            "index": 454
+        },
+        {
+            "word": "alors",
+            "index": 456
+        },
+        {
+            "word": "pas",
+            "index": 462
+        },
+        {
+            "word": "tranchés",
+            "index": 464
+        },
+        {
+            "word": "cette",
+            "index": 469
+        },
+        {
+            "word": "fois",
+            "index": 470
+        },
+        {
+            "word": "sommes",
+            "index": 473
+        },
+        {
+            "word": "c'est",
+            "index": 480
+        },
+        {
+            "word": "l'église",
+            "index": 489
+        },
+        {
+            "word": "près",
+            "index": 499
+        },
+        {
+            "word": "au",
+            "index": 506
+        },
+        {
+            "word": "donc",
+            "index": 520
+        },
+        {
+            "word": "aussi",
+            "index": 536
+        },
+        {
+            "word": "malade",
+            "index": 547
+        },
+        {
+            "word": "obtenir",
+            "index": 552
+        },
+        {
+            "word": "vous",
+            "index": 559
+        },
+        {
+            "word": "s'agit",
+            "index": 579
+        },
+        {
+            "word": "non",
+            "index": 580
+        },
+        {
+            "word": "soulever",
+            "index": 584
+        },
+        {
+            "word": "j'aurai",
+            "index": 604
+        },
+        {
+            "word": "j'ai",
+            "index": 618
+        },
+        {
+            "word": "d'amis",
+            "index": 620
+        },
+        {
+            "word": "me",
+            "index": 622
+        },
+        {
+            "word": "quand",
+            "index": 631
+        },
+        {
+            "word": "perd",
+            "index": 636
+        },
+        {
+            "word": "scandale",
+            "index": 648
+        },
+        {
+            "word": "revenu",
+            "index": 651
+        },
+        {
+            "word": "il",
+            "index": 656
+        },
+        {
+            "word": "balancent",
+            "index": 658
+        },
+        {
+            "word": "finalement",
+            "index": 674
+        },
+        {
+            "word": "serez",
+            "index": 676
+        },
+        {
+            "word": "d'accord",
+            "index": 677
+        },
+        {
+            "word": "avec",
+            "index": 678
+        },
+        {
+            "word": "n'est",
+            "index": 685
+        },
+        {
+            "word": "proprement",
+            "index": 687
+        }
+    ],
+    "highrise": [
+        {
+            "word": "exemple",
+            "index": 130
+        },
+        {
+            "word": "centaines",
+            "index": 335
+        },
+        {
+            "word": "tranchés",
+            "index": 464
+        },
+        {
+            "word": "ou",
+            "index": 611
+        }
+    ],
+    "highfall": [
+        {
+            "word": "transcrit",
+            "index": 342
+        },
+        {
+            "word": "mal",
+            "index": 435
+        },
+        {
+            "word": "très",
+            "index": 503
+        },
+        {
+            "word": "y",
+            "index": 510
+        },
+        {
+            "word": "qu'il",
+            "index": 635
+        }
+    ]
+}

@@ -1,0 +1,702 @@
+{
+    "high": [
+        {
+            "word": "l'université",
+            "index": 77
+        },
+        {
+            "word": "transformation",
+            "index": 80
+        },
+        {
+            "word": "quelle",
+            "index": 90
+        },
+        {
+            "word": "considère",
+            "index": 106
+        },
+        {
+            "word": "que",
+            "index": 107
+        },
+        {
+            "word": "l'enjeu",
+            "index": 108
+        },
+        {
+            "word": "est",
+            "index": 109
+        },
+        {
+            "word": "facilité",
+            "index": 110
+        },
+        {
+            "word": "plus",
+            "index": 115
+        },
+        {
+            "word": "pène",
+            "index": 130
+        },
+        {
+            "word": "étudiants",
+            "index": 140
+        },
+        {
+            "word": "diplômes",
+            "index": 150
+        },
+        {
+            "word": "repose",
+            "index": 180
+        },
+        {
+            "word": "développer",
+            "index": 212
+        },
+        {
+            "word": "actives",
+            "index": 215
+        },
+        {
+            "word": "mode",
+            "index": 221
+        },
+        {
+            "word": "projet",
+            "index": 222
+        },
+        {
+            "word": "compétences",
+            "index": 231
+        },
+        {
+            "word": "gens",
+            "index": 244
+        },
+        {
+            "word": "à",
+            "index": 245
+        },
+        {
+            "word": "noms",
+            "index": 247
+        },
+        {
+            "word": "qu'on",
+            "index": 250
+        },
+        {
+            "word": "suffit",
+            "index": 266
+        },
+        {
+            "word": "pas",
+            "index": 274
+        },
+        {
+            "word": "isolées",
+            "index": 285
+        },
+        {
+            "word": "massive",
+            "index": 292
+        },
+        {
+            "word": "l'institution",
+            "index": 297
+        },
+        {
+            "word": "comme",
+            "index": 300
+        },
+        {
+            "word": "défis",
+            "index": 303
+        },
+        {
+            "word": "enseignement",
+            "index": 317
+        },
+        {
+            "word": "ans",
+            "index": 328
+        },
+        {
+            "word": "habitudes",
+            "index": 332
+        },
+        {
+            "word": "construction",
+            "index": 342
+        },
+        {
+            "word": "possible",
+            "index": 365
+        },
+        {
+            "word": "hypothèse",
+            "index": 406
+        },
+        {
+            "word": "faut",
+            "index": 410
+        },
+        {
+            "word": "mettre",
+            "index": 411
+        },
+        {
+            "word": "de",
+            "index": 422
+        },
+        {
+            "word": "s'engager",
+            "index": 423
+        },
+        {
+            "word": "volontaires",
+            "index": 442
+        },
+        {
+            "word": "faire",
+            "index": 445
+        },
+        {
+            "word": "en",
+            "index": 446
+        },
+        {
+            "word": "collectifs",
+            "index": 450
+        },
+        {
+            "word": "enseignant",
+            "index": 460
+        },
+        {
+            "word": "des",
+            "index": 469
+        },
+        {
+            "word": "acteurs",
+            "index": 470
+        },
+        {
+            "word": "évidemment",
+            "index": 478
+        },
+        {
+            "word": "là",
+            "index": 499
+        },
+        {
+            "word": "comment",
+            "index": 523
+        },
+        {
+            "word": "recherche",
+            "index": 530
+        },
+        {
+            "word": "et",
+            "index": 533
+        },
+        {
+            "word": "enseignants",
+            "index": 560
+        },
+        {
+            "word": "contribuer",
+            "index": 580
+        },
+        {
+            "word": "rayonnements",
+            "index": 582
+        },
+        {
+            "word": "pédagogiques",
+            "index": 583
+        },
+        {
+            "word": "d'étudiants",
+            "index": 598
+        },
+        {
+            "word": "dites",
+            "index": 613
+        },
+        {
+            "word": "donc",
+            "index": 614
+        }
+    ],
+    "low": [
+        {
+            "word": "vais",
+            "index": 2
+        },
+        {
+            "word": "vous",
+            "index": 3
+        },
+        {
+            "word": "confiance",
+            "index": 6
+        },
+        {
+            "word": "deuxième",
+            "index": 27
+        },
+        {
+            "word": "année",
+            "index": 28
+        },
+        {
+            "word": "mais",
+            "index": 30
+        },
+        {
+            "word": "fais",
+            "index": 48
+        },
+        {
+            "word": "partie",
+            "index": 49
+        },
+        {
+            "word": "mon",
+            "index": 51
+        },
+        {
+            "word": "d'observations",
+            "index": 53
+        },
+        {
+            "word": "ça",
+            "index": 56
+        },
+        {
+            "word": "en",
+            "index": 68
+        },
+        {
+            "word": "les",
+            "index": 74
+        },
+        {
+            "word": "enseignants",
+            "index": 75
+        },
+        {
+            "word": "l'université",
+            "index": 77
+        },
+        {
+            "word": "dans",
+            "index": 78
+        },
+        {
+            "word": "la",
+            "index": 79
+        },
+        {
+            "word": "transformation",
+            "index": 80
+        },
+        {
+            "word": "dites",
+            "index": 87
+        },
+        {
+            "word": "moi",
+            "index": 88
+        },
+        {
+            "word": "de",
+            "index": 93
+        },
+        {
+            "word": "l'enseignement",
+            "index": 94
+        },
+        {
+            "word": "supérieur",
+            "index": 95
+        },
+        {
+            "word": "aujourd'hui",
+            "index": 96
+        },
+        {
+            "word": "on",
+            "index": 105
+        },
+        {
+            "word": "facilité",
+            "index": 110
+        },
+        {
+            "word": "d'étudiants",
+            "index": 118
+        },
+        {
+            "word": "d'enseignement",
+            "index": 128
+        },
+        {
+            "word": "à",
+            "index": 131
+        },
+        {
+            "word": "répondre",
+            "index": 132
+        },
+        {
+            "word": "avec",
+            "index": 138
+        },
+        {
+            "word": "des",
+            "index": 139
+        },
+        {
+            "word": "étudiants",
+            "index": 140
+        },
+        {
+            "word": "qui",
+            "index": 141
+        },
+        {
+            "word": "tous",
+            "index": 142
+        },
+        {
+            "word": "gens",
+            "index": 144
+        },
+        {
+            "word": "d'emplois",
+            "index": 157
+        },
+        {
+            "word": "hauteur",
+            "index": 160
+        },
+        {
+            "word": "qualification",
+            "index": 163
+        },
+        {
+            "word": "se",
+            "index": 174
+        },
+        {
+            "word": "cette",
+            "index": 177
+        },
+        {
+            "word": "enseignement",
+            "index": 183
+        },
+        {
+            "word": "savoir",
+            "index": 190
+        },
+        {
+            "word": "même",
+            "index": 197
+        },
+        {
+            "word": "concrètement",
+            "index": 199
+        },
+        {
+            "word": "signifie",
+            "index": 205
+        },
+        {
+            "word": "va",
+            "index": 211
+        },
+        {
+            "word": "pédagogie",
+            "index": 214
+        },
+        {
+            "word": "actives",
+            "index": 215
+        },
+        {
+            "word": "pratiques",
+            "index": 257
+        },
+        {
+            "word": "cela",
+            "index": 265
+        },
+        {
+            "word": "certainement",
+            "index": 273
+        },
+        {
+            "word": "initiatives",
+            "index": 283
+        },
+        {
+            "word": "isolées",
+            "index": 285
+        },
+        {
+            "word": "l'institution",
+            "index": 297
+        },
+        {
+            "word": "défis",
+            "index": 303
+        },
+        {
+            "word": "c'est",
+            "index": 305
+        },
+        {
+            "word": "sujet",
+            "index": 307
+        },
+        {
+            "word": "ma",
+            "index": 309
+        },
+        {
+            "word": "qu'il",
+            "index": 318
+        },
+        {
+            "word": "n'est",
+            "index": 321
+        },
+        {
+            "word": "depuis",
+            "index": 326
+        },
+        {
+            "word": "d'abandonner",
+            "index": 330
+        },
+        {
+            "word": "habitudes",
+            "index": 332
+        },
+        {
+            "word": "nouvelle",
+            "index": 344
+        },
+        {
+            "word": "identité",
+            "index": 345
+        },
+        {
+            "word": "l'ancien",
+            "index": 347
+        },
+        {
+            "word": "recherche",
+            "index": 348
+        },
+        {
+            "word": "a",
+            "index": 352
+        },
+        {
+            "word": "il",
+            "index": 358
+        },
+        {
+            "word": "n'y",
+            "index": 359
+        },
+        {
+            "word": "construction",
+            "index": 363
+        },
+        {
+            "word": "identitaire",
+            "index": 364
+        },
+        {
+            "word": "possible",
+            "index": 365
+        },
+        {
+            "word": "n'a",
+            "index": 369
+        },
+        {
+            "word": "travailler",
+            "index": 381
+        },
+        {
+            "word": "collectivement",
+            "index": 383
+        },
+        {
+            "word": "enfin",
+            "index": 386
+        },
+        {
+            "word": "le",
+            "index": 387
+        },
+        {
+            "word": "activité",
+            "index": 395
+        },
+        {
+            "word": "est",
+            "index": 408
+        },
+        {
+            "word": "personnes",
+            "index": 413
+        },
+        {
+            "word": "ces",
+            "index": 425
+        },
+        {
+            "word": "collectifs",
+            "index": 426
+        },
+        {
+            "word": "démarche",
+            "index": 429
+        },
+        {
+            "word": "consiste",
+            "index": 431
+        },
+        {
+            "word": "travail",
+            "index": 437
+        },
+        {
+            "word": "et",
+            "index": 444
+        },
+        {
+            "word": "sorte",
+            "index": 447
+        },
+        {
+            "word": "que",
+            "index": 448
+        },
+        {
+            "word": "homme",
+            "index": 456
+        },
+        {
+            "word": "croit",
+            "index": 457
+        },
+        {
+            "word": "enseignant",
+            "index": 460
+        },
+        {
+            "word": "personnels",
+            "index": 466
+        },
+        {
+            "word": "administratifs",
+            "index": 467
+        },
+        {
+            "word": "système",
+            "index": 494
+        },
+        {
+            "word": "complique",
+            "index": 503
+        },
+        {
+            "word": "alors",
+            "index": 516
+        },
+        {
+            "word": "fiable",
+            "index": 534
+        },
+        {
+            "word": "entretiens",
+            "index": 542
+        },
+        {
+            "word": "genres",
+            "index": 546
+        },
+        {
+            "word": "analyser",
+            "index": 551
+        },
+        {
+            "word": "sciences",
+            "index": 553
+        },
+        {
+            "word": "pédagogique",
+            "index": 572
+        },
+        {
+            "word": "grâce",
+            "index": 574
+        },
+        {
+            "word": "j'espère",
+            "index": 579
+        },
+        {
+            "word": "aux",
+            "index": 581
+        },
+        {
+            "word": "rayonnements",
+            "index": 582
+        },
+        {
+            "word": "grand",
+            "index": 596
+        },
+        {
+            "word": "nombre",
+            "index": 597
+        }
+    ],
+    "highrise": [
+        {
+            "word": "projet",
+            "index": 222
+        }
+    ],
+    "highfall": [
+        {
+            "word": "est",
+            "index": 91
+        },
+        {
+            "word": "compétences",
+            "index": 231
+        },
+        {
+            "word": "les",
+            "index": 372
+        },
+        {
+            "word": "des",
+            "index": 487
+        }
+    ]
+}

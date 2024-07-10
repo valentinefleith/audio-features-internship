@@ -1,0 +1,970 @@
+{
+    "high": [
+        {
+            "word": "milieu",
+            "index": 5
+        },
+        {
+            "word": "carcéral",
+            "index": 6
+        },
+        {
+            "word": "rencontrer",
+            "index": 13
+        },
+        {
+            "word": "dalton",
+            "index": 24
+        },
+        {
+            "word": "dernier",
+            "index": 31
+        },
+        {
+            "word": "nom",
+            "index": 32
+        },
+        {
+            "word": "s'agit",
+            "index": 50
+        },
+        {
+            "word": "cancer",
+            "index": 53
+        },
+        {
+            "word": "prison",
+            "index": 61
+        },
+        {
+            "word": "enfermé",
+            "index": 71
+        },
+        {
+            "word": "le",
+            "index": 80
+        },
+        {
+            "word": "non",
+            "index": 94
+        },
+        {
+            "word": "celui",
+            "index": 98
+        },
+        {
+            "word": "a",
+            "index": 100
+        },
+        {
+            "word": "d'aspect",
+            "index": 105
+        },
+        {
+            "word": "de",
+            "index": 108
+        },
+        {
+            "word": "pas",
+            "index": 128
+        },
+        {
+            "word": "facile",
+            "index": 130
+        },
+        {
+            "word": "franchir",
+            "index": 132
+        },
+        {
+            "word": "séparent",
+            "index": 137
+        },
+        {
+            "word": "jour",
+            "index": 156
+        },
+        {
+            "word": "après",
+            "index": 157
+        },
+        {
+            "word": "escale",
+            "index": 161
+        },
+        {
+            "word": "tente",
+            "index": 166
+        },
+        {
+            "word": "faufiler",
+            "index": 169
+        },
+        {
+            "word": "s'échapper",
+            "index": 175
+        },
+        {
+            "word": "temps",
+            "index": 183
+        },
+        {
+            "word": "efficace",
+            "index": 191
+        },
+        {
+            "word": "qu'avril",
+            "index": 197
+        },
+        {
+            "word": "utilise",
+            "index": 200
+        },
+        {
+            "word": "rocher",
+            "index": 207
+        },
+        {
+            "word": "mettra",
+            "index": 220
+        },
+        {
+            "word": "dire",
+            "index": 232
+        },
+        {
+            "word": "deux",
+            "index": 234
+        },
+        {
+            "word": "plans",
+            "index": 235
+        },
+        {
+            "word": "créer",
+            "index": 244
+        },
+        {
+            "word": "petites",
+            "index": 246
+        },
+        {
+            "word": "appelle",
+            "index": 250
+        },
+        {
+            "word": "adhérence",
+            "index": 252
+        },
+        {
+            "word": "permettre",
+            "index": 258
+        },
+        {
+            "word": "petit",
+            "index": 262
+        },
+        {
+            "word": "peu",
+            "index": 282
+        },
+        {
+            "word": "utilisait",
+            "index": 287
+        },
+        {
+            "word": "migration",
+            "index": 297
+        },
+        {
+            "word": "littéralement",
+            "index": 318
+        },
+        {
+            "word": "dans",
+            "index": 330
+        },
+        {
+            "word": "ce",
+            "index": 331
+        },
+        {
+            "word": "cas",
+            "index": 332
+        },
+        {
+            "word": "quitter",
+            "index": 346
+        },
+        {
+            "word": "rejoindre",
+            "index": 353
+        },
+        {
+            "word": "d'autres",
+            "index": 354
+        },
+        {
+            "word": "dangereux",
+            "index": 370
+        },
+        {
+            "word": "corps",
+            "index": 376
+        },
+        {
+            "word": "existe",
+            "index": 386
+        },
+        {
+            "word": "des",
+            "index": 387
+        },
+        {
+            "word": "visant",
+            "index": 390
+        },
+        {
+            "word": "bloquant",
+            "index": 402
+        },
+        {
+            "word": "quatre",
+            "index": 417
+        },
+        {
+            "word": "toutes",
+            "index": 422
+        },
+        {
+            "word": "tentatives",
+            "index": 424
+        },
+        {
+            "word": "avortées",
+            "index": 427
+        },
+        {
+            "word": "continue",
+            "index": 430
+        },
+        {
+            "word": "s'évader",
+            "index": 433
+        },
+        {
+            "word": "cellules",
+            "index": 438
+        },
+        {
+            "word": "échelles",
+            "index": 444
+        },
+        {
+            "word": "davantage",
+            "index": 450
+        },
+        {
+            "word": "pioches",
+            "index": 452
+        },
+        {
+            "word": "vous",
+            "index": 471
+        },
+        {
+            "word": "plus",
+            "index": 474
+        },
+        {
+            "word": "c'est",
+            "index": 479
+        },
+        {
+            "word": "là",
+            "index": 480
+        },
+        {
+            "word": "déjouait",
+            "index": 489
+        },
+        {
+            "word": "faire",
+            "index": 498
+        },
+        {
+            "word": "créé",
+            "index": 500
+        },
+        {
+            "word": "propre",
+            "index": 502
+        },
+        {
+            "word": "papier",
+            "index": 510
+        },
+        {
+            "word": "tout",
+            "index": 513
+        },
+        {
+            "word": "dépose",
+            "index": 518
+        },
+        {
+            "word": "capacité",
+            "index": 531
+        },
+        {
+            "word": "dégrader",
+            "index": 534
+        },
+        {
+            "word": "sûr",
+            "index": 537
+        },
+        {
+            "word": "formés",
+            "index": 543
+        },
+        {
+            "word": "trop",
+            "index": 545
+        },
+        {
+            "word": "petits",
+            "index": 546
+        },
+        {
+            "word": "les",
+            "index": 556
+        },
+        {
+            "word": "visualiser",
+            "index": 557
+        },
+        {
+            "word": "microscope",
+            "index": 562
+        },
+        {
+            "word": "rappelez",
+            "index": 566
+        },
+        {
+            "word": "vieux",
+            "index": 570
+        },
+        {
+            "word": "utilisé",
+            "index": 575
+        },
+        {
+            "word": "ressemble",
+            "index": 583
+        },
+        {
+            "word": "grossissement",
+            "index": 590
+        },
+        {
+            "word": "important",
+            "index": 593
+        },
+        {
+            "word": "surveiller",
+            "index": 598
+        },
+        {
+            "word": "nombre",
+            "index": 623
+        },
+        {
+            "word": "dégradation",
+            "index": 642
+        },
+        {
+            "word": "long",
+            "index": 648
+        },
+        {
+            "word": "terme",
+            "index": 649
+        },
+        {
+            "word": "traitement",
+            "index": 654
+        },
+        {
+            "word": "à",
+            "index": 659
+        },
+        {
+            "word": "la",
+            "index": 660
+        }
+    ],
+    "low": [
+        {
+            "word": "le",
+            "index": 4
+        },
+        {
+            "word": "carcéral",
+            "index": 6
+        },
+        {
+            "word": "vous",
+            "index": 11
+        },
+        {
+            "word": "des",
+            "index": 14
+        },
+        {
+            "word": "prisonniers",
+            "index": 15
+        },
+        {
+            "word": "tels",
+            "index": 17
+        },
+        {
+            "word": "que",
+            "index": 18
+        },
+        {
+            "word": "kid",
+            "index": 21
+        },
+        {
+            "word": "les",
+            "index": 23
+        },
+        {
+            "word": "dalton",
+            "index": 24
+        },
+        {
+            "word": "et",
+            "index": 26
+        },
+        {
+            "word": "mais",
+            "index": 29
+        },
+        {
+            "word": "est",
+            "index": 34
+        },
+        {
+            "word": "inconnu",
+            "index": 37
+        },
+        {
+            "word": "n'est",
+            "index": 42
+        },
+        {
+            "word": "criminel",
+            "index": 46
+        },
+        {
+            "word": "ordinaire",
+            "index": 47
+        },
+        {
+            "word": "il",
+            "index": 49
+        },
+        {
+            "word": "de",
+            "index": 54
+        },
+        {
+            "word": "sa",
+            "index": 60
+        },
+        {
+            "word": "car",
+            "index": 68
+        },
+        {
+            "word": "enfermé",
+            "index": 71
+        },
+        {
+            "word": "dans",
+            "index": 73
+        },
+        {
+            "word": "beauté",
+            "index": 83
+        },
+        {
+            "word": "ou",
+            "index": 85
+        },
+        {
+            "word": "non",
+            "index": 95
+        },
+        {
+            "word": "heureusement",
+            "index": 115
+        },
+        {
+            "word": "cette",
+            "index": 122
+        },
+        {
+            "word": "prison",
+            "index": 123
+        },
+        {
+            "word": "si",
+            "index": 129
+        },
+        {
+            "word": "murs",
+            "index": 134
+        },
+        {
+            "word": "qui",
+            "index": 135
+        },
+        {
+            "word": "se",
+            "index": 168
+        },
+        {
+            "word": "s'échapper",
+            "index": 175
+        },
+        {
+            "word": "même",
+            "index": 182
+        },
+        {
+            "word": "à",
+            "index": 185
+        },
+        {
+            "word": "débuts",
+            "index": 187
+        },
+        {
+            "word": "pas",
+            "index": 190
+        },
+        {
+            "word": "maladroit",
+            "index": 196
+        },
+        {
+            "word": "qu'avril",
+            "index": 197
+        },
+        {
+            "word": "utilise",
+            "index": 200
+        },
+        {
+            "word": "monde",
+            "index": 204
+        },
+        {
+            "word": "rocher",
+            "index": 207
+        },
+        {
+            "word": "tenter",
+            "index": 209
+        },
+        {
+            "word": "qu'avec",
+            "index": 215
+        },
+        {
+            "word": "a",
+            "index": 230
+        },
+        {
+            "word": "lui",
+            "index": 236
+        },
+        {
+            "word": "sont",
+            "index": 237
+        },
+        {
+            "word": "possibles",
+            "index": 238
+        },
+        {
+            "word": "d'abord",
+            "index": 243
+        },
+        {
+            "word": "structures",
+            "index": 247
+        },
+        {
+            "word": "qu'on",
+            "index": 249
+        },
+        {
+            "word": "appelle",
+            "index": 250
+        },
+        {
+            "word": "focale",
+            "index": 253
+        },
+        {
+            "word": "grimper",
+            "index": 260
+        },
+        {
+            "word": "petit",
+            "index": 264
+        },
+        {
+            "word": "du",
+            "index": 267
+        },
+        {
+            "word": "failles",
+            "index": 275
+        },
+        {
+            "word": "utilisait",
+            "index": 287
+        },
+        {
+            "word": "on",
+            "index": 293
+        },
+        {
+            "word": "alors",
+            "index": 295
+        },
+        {
+            "word": "migration",
+            "index": 297
+        },
+        {
+            "word": "consiste",
+            "index": 304
+        },
+        {
+            "word": "littéralement",
+            "index": 318
+        },
+        {
+            "word": "creuser",
+            "index": 319
+        },
+        {
+            "word": "dégradation",
+            "index": 337
+        },
+        {
+            "word": "grâce",
+            "index": 339
+        },
+        {
+            "word": "peut",
+            "index": 345
+        },
+        {
+            "word": "organes",
+            "index": 355
+        },
+        {
+            "word": "laisser",
+            "index": 366
+        },
+        {
+            "word": "ce",
+            "index": 367
+        },
+        {
+            "word": "prisonnier",
+            "index": 368
+        },
+        {
+            "word": "en",
+            "index": 372
+        },
+        {
+            "word": "votre",
+            "index": 375
+        },
+        {
+            "word": "traitements",
+            "index": 388
+        },
+        {
+            "word": "empêcher",
+            "index": 393
+        },
+        {
+            "word": "l'évasion",
+            "index": 395
+        },
+        {
+            "word": "notamment",
+            "index": 399
+        },
+        {
+            "word": "échelles",
+            "index": 404
+        },
+        {
+            "word": "aussi",
+            "index": 413
+        },
+        {
+            "word": "têtu",
+            "index": 414
+        },
+        {
+            "word": "nos",
+            "index": 416
+        },
+        {
+            "word": "quatre",
+            "index": 417
+        },
+        {
+            "word": "malgré",
+            "index": 421
+        },
+        {
+            "word": "ces",
+            "index": 423
+        },
+        {
+            "word": "tentatives",
+            "index": 424
+        },
+        {
+            "word": "d'évasion",
+            "index": 425
+        },
+        {
+            "word": "d'essayer",
+            "index": 431
+        },
+        {
+            "word": "s'évader",
+            "index": 433
+        },
+        {
+            "word": "voyez",
+            "index": 435
+        },
+        {
+            "word": "ne",
+            "index": 439
+        },
+        {
+            "word": "pouvant",
+            "index": 440
+        },
+        {
+            "word": "utiliser",
+            "index": 442
+        },
+        {
+            "word": "ramassé",
+            "index": 449
+        },
+        {
+            "word": "au",
+            "index": 465
+        },
+        {
+            "word": "haut",
+            "index": 466
+        },
+        {
+            "word": "essayé",
+            "index": 483
+        },
+        {
+            "word": "comprendre",
+            "index": 485
+        },
+        {
+            "word": "traitement",
+            "index": 491
+        },
+        {
+            "word": "j'ai",
+            "index": 499
+        },
+        {
+            "word": "mon",
+            "index": 501
+        },
+        {
+            "word": "papier",
+            "index": 510
+        },
+        {
+            "word": "gélatine",
+            "index": 515
+        },
+        {
+            "word": "dépose",
+            "index": 518
+        },
+        {
+            "word": "capacité",
+            "index": 531
+        },
+        {
+            "word": "dégrader",
+            "index": 534
+        },
+        {
+            "word": "être",
+            "index": 548
+        },
+        {
+            "word": "l'œil",
+            "index": 551
+        },
+        {
+            "word": "nu",
+            "index": 552
+        },
+        {
+            "word": "visualiser",
+            "index": 557
+        },
+        {
+            "word": "microscope",
+            "index": 562
+        },
+        {
+            "word": "aviez",
+            "index": 574
+        },
+        {
+            "word": "celui",
+            "index": 585
+        },
+        {
+            "word": "son",
+            "index": 589
+        },
+        {
+            "word": "j'étais",
+            "index": 606
+        },
+        {
+            "word": "la",
+            "index": 610
+        },
+        {
+            "word": "mirador",
+            "index": 617
+        },
+        {
+            "word": "je",
+            "index": 619
+        },
+        {
+            "word": "compte",
+            "index": 620
+        },
+        {
+            "word": "j'espère",
+            "index": 632
+        },
+        {
+            "word": "identifier",
+            "index": 634
+        },
+        {
+            "word": "comment",
+            "index": 635
+        },
+        {
+            "word": "afin",
+            "index": 644
+        },
+        {
+            "word": "pioches",
+            "index": 670
+        },
+        {
+            "word": "évasion",
+            "index": 674
+        },
+        {
+            "word": "serait",
+            "index": 679
+        },
+        {
+            "word": "après",
+            "index": 683
+        },
+        {
+            "word": "été",
+            "index": 689
+        },
+        {
+            "word": "capable",
+            "index": 690
+        },
+        {
+            "word": "garder",
+            "index": 692
+        },
+        {
+            "word": "espérer",
+            "index": 701
+        },
+        {
+            "word": "docteur",
+            "index": 703
+        },
+        {
+            "word": "face",
+            "index": 705
+        }
+    ],
+    "highrise": [
+        {
+            "word": "plans",
+            "index": 342
+        },
+        {
+            "word": "murs",
+            "index": 468
+        }
+    ],
+    "highfall": [
+        {
+            "word": "couleur",
+            "index": 103
+        },
+        {
+            "word": "dangereux",
+            "index": 370
+        },
+        {
+            "word": "vous",
+            "index": 436
+        },
+        {
+            "word": "plus",
+            "index": 441
+        }
+    ]
+}
