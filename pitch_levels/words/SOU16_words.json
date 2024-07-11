@@ -1,6 +1,10 @@
 {
     "high": [
         {
+            "word": "amène",
+            "index": 22
+        },
+        {
             "word": "ressources",
             "index": 31
         },
@@ -9,223 +13,239 @@
             "index": 40
         },
         {
-            "word": "effet",
-            "index": 73
+            "word": "autre",
+            "index": 82
         },
         {
             "word": "qu'une",
-            "index": 84
+            "index": 83
         },
         {
             "word": "longue",
-            "index": 85
+            "index": 84
         },
         {
             "word": "chaîne",
-            "index": 86
+            "index": 85
         },
         {
-            "word": "imaginée",
-            "index": 89
+            "word": "imaginez",
+            "index": 88
         },
         {
             "word": "énergie",
-            "index": 108
+            "index": 106
         },
         {
-            "word": "film",
-            "index": 116
+            "word": "fil",
+            "index": 113
         },
         {
             "word": "entre",
-            "index": 118
+            "index": 115
         },
         {
             "word": "l'énergie",
-            "index": 147
+            "index": 144
         },
         {
-            "word": "si",
+            "word": "s'il",
+            "index": 166
+        },
+        {
+            "word": "est",
+            "index": 167
+        },
+        {
+            "word": "possible",
             "index": 168
         },
         {
-            "word": "les",
-            "index": 169
-        },
-        {
-            "word": "possibles",
-            "index": 170
-        },
-        {
             "word": "régénérer",
-            "index": 187
+            "index": 185
         },
         {
             "word": "ensuite",
-            "index": 188
+            "index": 186
         },
         {
             "word": "partir",
-            "index": 191
+            "index": 189
         },
         {
             "word": "renouvelable",
-            "index": 203
+            "index": 201
         },
         {
             "word": "faisant",
-            "index": 206
-        },
-        {
-            "word": "plus",
-            "index": 209
+            "index": 204
         },
         {
             "word": "besoin",
-            "index": 210
+            "index": 208
         },
         {
             "word": "pétrole",
-            "index": 214
+            "index": 211
         },
         {
             "word": "sûr",
-            "index": 229
+            "index": 226
         },
         {
-            "word": "représentant",
-            "index": 236
+            "word": "représente",
+            "index": 232
         },
         {
             "word": "confiner",
-            "index": 247
+            "index": 243
+        },
+        {
+            "word": "les",
+            "index": 244
         },
         {
             "word": "puis",
-            "index": 251
+            "index": 247
         },
         {
             "word": "sans",
+            "index": 251
+        },
+        {
+            "word": "minimale",
             "index": 255
         },
         {
-            "word": "minimal",
-            "index": 259
-        },
-        {
             "word": "faut",
-            "index": 270
+            "index": 266
         },
         {
             "word": "en",
-            "index": 285
+            "index": 281
         },
         {
             "word": "surface",
-            "index": 315
+            "index": 309
         },
         {
             "word": "desquelles",
-            "index": 316
+            "index": 310
         },
         {
             "word": "nature",
-            "index": 325
+            "index": 319
         },
         {
             "word": "et",
-            "index": 327
+            "index": 321
         },
         {
             "word": "structure",
-            "index": 329
+            "index": 323
         },
         {
             "word": "deux",
-            "index": 336
+            "index": 330
         },
         {
             "word": "type",
-            "index": 349
+            "index": 343
         },
         {
             "word": "vitesse",
-            "index": 364
+            "index": 357
         },
         {
             "word": "laquelle",
-            "index": 366
+            "index": 359
         },
         {
             "word": "redis",
-            "index": 392
+            "index": 384
         },
         {
             "word": "capacités",
-            "index": 421
+            "index": 413
+        },
+        {
+            "word": "développé",
+            "index": 429
         },
         {
             "word": "présentant",
-            "index": 450
+            "index": 445
         },
         {
             "word": "porosité",
-            "index": 457
+            "index": 452
         },
         {
             "word": "que",
-            "index": 466
+            "index": 461
         },
         {
-            "word": "profité",
+            "word": "brevetée",
+            "index": 464
+        },
+        {
+            "word": "confère",
             "index": 469
         },
         {
-            "word": "fait",
-            "index": 474
-        },
-        {
             "word": "conduire",
-            "index": 489
+            "index": 483
         },
         {
             "word": "très",
-            "index": 490
+            "index": 484
         },
         {
             "word": "vite",
-            "index": 491
+            "index": 485
+        },
+        {
+            "word": "faire",
+            "index": 498
         },
         {
             "word": "électrodes",
-            "index": 507
+            "index": 501
         },
         {
             "word": "coupler",
-            "index": 520
+            "index": 513
+        },
+        {
+            "word": "panneaux",
+            "index": 517
         },
         {
             "word": "aboutir",
-            "index": 530
+            "index": 524
         },
         {
             "word": "preuve",
-            "index": 533
+            "index": 527
         },
         {
             "word": "système",
-            "index": 539
+            "index": 532
         },
         {
             "word": "complet",
-            "index": 542
+            "index": 535
         },
         {
             "word": "matières",
-            "index": 558
+            "index": 551
         }
     ],
     "low": [
+        {
+            "word": "problèmes",
+            "index": 25
+        },
         {
             "word": "des",
             "index": 30
@@ -235,11 +255,11 @@
             "index": 31
         },
         {
-            "word": "leur",
+            "word": "leurs",
             "index": 36
         },
         {
-            "word": "dérivée",
+            "word": "dérivés",
             "index": 37
         },
         {
@@ -251,456 +271,500 @@
             "index": 42
         },
         {
-            "word": "en",
-            "index": 72
+            "word": "leur",
+            "index": 67
         },
         {
             "word": "carbone",
+            "index": 87
+        },
+        {
+            "word": "imaginez",
             "index": 88
         },
         {
-            "word": "imaginée",
-            "index": 89
-        },
-        {
             "word": "collier",
-            "index": 91
+            "index": 90
         },
         {
-            "word": "père",
-            "index": 94
+            "word": "perles",
+            "index": 93
         },
         {
             "word": "comme",
-            "index": 96
+            "index": 95
         },
         {
             "word": "celui",
-            "index": 97
+            "index": 96
         },
         {
             "word": "dessiné",
-            "index": 99
+            "index": 97
         },
         {
             "word": "son",
-            "index": 104
+            "index": 102
         },
         {
             "word": "énergie",
-            "index": 105
+            "index": 103
         },
         {
-            "word": "contenus",
+            "word": "liaisons",
             "index": 111
         },
         {
-            "word": "le",
-            "index": 115
-        },
-        {
             "word": "carbones",
-            "index": 120
-        },
-        {
-            "word": "et",
-            "index": 121
+            "index": 117
         },
         {
             "word": "vous",
-            "index": 128
+            "index": 125
         },
         {
             "word": "brûlez",
-            "index": 129
+            "index": 126
         },
         {
             "word": "du",
-            "index": 130
+            "index": 127
         },
         {
             "word": "carburant",
-            "index": 131
+            "index": 128
         },
         {
             "word": "votre",
-            "index": 133
+            "index": 130
         },
         {
             "word": "moteur",
-            "index": 134
+            "index": 131
         },
         {
             "word": "de",
-            "index": 135
+            "index": 132
         },
         {
             "word": "voiture",
-            "index": 136
+            "index": 133
         },
         {
             "word": "l'énergie",
-            "index": 147
+            "index": 144
         },
         {
             "word": "déchets",
-            "index": 152
-        },
-        {
-            "word": "pères",
-            "index": 161
+            "index": 149
         },
         {
             "word": "à",
-            "index": 162
+            "index": 159
         },
         {
             "word": "quelques",
-            "index": 163
+            "index": 160
+        },
+        {
+            "word": "oxygènes",
+            "index": 162
         },
         {
             "word": "donc",
-            "index": 167
+            "index": 165
         },
         {
             "word": "dégrader",
-            "index": 173
+            "index": 171
         },
         {
             "word": "ces",
-            "index": 174
+            "index": 172
         },
         {
             "word": "carburants",
+            "index": 173
+        },
+        {
+            "word": "en",
             "index": 175
         },
         {
             "word": "extraire",
-            "index": 178
+            "index": 176
         },
         {
             "word": "ne",
-            "index": 184
+            "index": 182
         },
         {
             "word": "pas",
-            "index": 185
+            "index": 183
         },
         {
             "word": "régénérer",
-            "index": 187
+            "index": 185
         },
         {
             "word": "d'énergie",
-            "index": 202
+            "index": 200
         },
         {
             "word": "renouvelable",
+            "index": 201
+        },
+        {
+            "word": "ce",
             "index": 203
         },
         {
-            "word": "se",
-            "index": 205
+            "word": "faisant",
+            "index": 204
         },
         {
-            "word": "faisant",
+            "word": "n'aurait",
             "index": 206
         },
         {
-            "word": "aurait",
-            "index": 208
-        },
-        {
-            "word": "d'exprès",
-            "index": 211
+            "word": "d'extraire",
+            "index": 209
         },
         {
             "word": "pétrole",
-            "index": 214
+            "index": 211
         },
         {
             "word": "énergétique",
-            "index": 223
+            "index": 220
         },
         {
             "word": "durable",
-            "index": 225
+            "index": 222
         },
         {
             "word": "alors",
-            "index": 227
+            "index": 224
         },
         {
             "word": "cette",
-            "index": 231
+            "index": 228
         },
         {
             "word": "réaction",
+            "index": 229
+        },
+        {
+            "word": "elle",
+            "index": 231
+        },
+        {
+            "word": "représente",
             "index": 232
         },
         {
             "word": "véritable",
-            "index": 237
+            "index": 234
         },
         {
             "word": "faut",
-            "index": 245
+            "index": 241
         },
         {
             "word": "confiner",
-            "index": 247
+            "index": 243
         },
         {
             "word": "fournir",
-            "index": 253
+            "index": 249
         },
         {
-            "word": "il",
-            "index": 268
+            "word": "perte",
+            "index": 252
         },
         {
             "word": "designer",
-            "index": 271
+            "index": 267
         },
         {
             "word": "supports",
-            "index": 273
+            "index": 269
         },
         {
             "word": "que",
-            "index": 282
+            "index": 278
         },
         {
             "word": "je",
-            "index": 283
+            "index": 279
         },
         {
-            "word": "développement",
-            "index": 286
+            "word": "développant",
+            "index": 282
         },
         {
             "word": "électrodes",
-            "index": 288
+            "index": 284
         },
         {
-            "word": "conduit",
-            "index": 290
+            "word": "contenues",
+            "index": 286
         },
         {
             "word": "dans",
-            "index": 291
+            "index": 287
         },
         {
             "word": "centre",
-            "index": 296
+            "index": 292
         },
         {
             "word": "métalliques",
-            "index": 304
+            "index": 300
         },
         {
             "word": "spéciales",
-            "index": 307
+            "index": 303
         },
         {
-            "word": "vrai",
-            "index": 309
-        },
-        {
-            "word": "a",
-            "index": 313
+            "word": "c'est",
+            "index": 304
         },
         {
             "word": "la",
-            "index": 314
+            "index": 308
         },
         {
             "word": "va",
-            "index": 319
+            "index": 313
         },
         {
             "word": "pouvoir",
-            "index": 320
+            "index": 314
+        },
+        {
+            "word": "se",
+            "index": 315
         },
         {
             "word": "chimique",
-            "index": 326
+            "index": 320
         },
         {
             "word": "sont",
-            "index": 334
+            "index": 328
         },
         {
             "word": "paramètres",
-            "index": 337
+            "index": 331
+        },
+        {
+            "word": "le",
+            "index": 342
         },
         {
             "word": "laquelle",
-            "index": 366
+            "index": 359
         },
         {
             "word": "ma",
-            "index": 367
+            "index": 360
         },
         {
             "word": "produire",
-            "index": 371
+            "index": 364
         },
         {
             "word": "vitesse",
-            "index": 375
+            "index": 368
         },
         {
             "word": "est",
-            "index": 376
+            "index": 370
         },
         {
             "word": "vue",
-            "index": 381
+            "index": 374
         },
         {
-            "word": "plans",
-            "index": 384
+            "word": "déploiement",
+            "index": 376
         },
         {
             "word": "redis",
-            "index": 392
+            "index": 384
         },
         {
             "word": "ici",
-            "index": 394
+            "index": 386
         },
         {
             "word": "notre",
-            "index": 396
+            "index": 388
         },
         {
             "word": "millions",
-            "index": 408
-        },
-        {
-            "word": "ce",
-            "index": 418
+            "index": 400
         },
         {
             "word": "capacités",
-            "index": 421
+            "index": 413
         },
         {
             "word": "production",
-            "index": 423
+            "index": 415
         },
         {
             "word": "absolument",
-            "index": 424
+            "index": 416
+        },
+        {
+            "word": "année",
+            "index": 423
+        },
+        {
+            "word": "thèse",
+            "index": 426
+        },
+        {
+            "word": "j'ai",
+            "index": 428
+        },
+        {
+            "word": "développé",
+            "index": 429
         },
         {
             "word": "base",
-            "index": 440
+            "index": 434
         },
         {
-            "word": "d'alliage",
-            "index": 441
+            "word": "d'alliages",
+            "index": 435
         },
         {
             "word": "haut",
-            "index": 446
+            "index": 441
         },
         {
             "word": "présentant",
-            "index": 450
+            "index": 445
         },
         {
             "word": "une",
-            "index": 451
+            "index": 446
         },
         {
             "word": "porosité",
-            "index": 452
+            "index": 447
         },
         {
             "word": "extrêmement",
-            "index": 453
+            "index": 448
         },
         {
             "word": "inattendue",
-            "index": 465
+            "index": 460
         },
         {
             "word": "l'on",
-            "index": 467
+            "index": 462
         },
         {
-            "word": "profité",
-            "index": 469
+            "word": "a",
+            "index": 463
+        },
+        {
+            "word": "brevetée",
+            "index": 464
         },
         {
             "word": "d'ailleurs",
-            "index": 470
+            "index": 465
         },
         {
             "word": "très",
-            "index": 477
+            "index": 471
         },
         {
             "word": "surface",
-            "index": 479
+            "index": 473
         },
         {
             "word": "capacité",
-            "index": 487
+            "index": 481
         },
         {
             "word": "conduire",
-            "index": 489
+            "index": 483
         },
         {
-            "word": "qu'on",
-            "index": 503
+            "word": "qu'en",
+            "index": 497
         },
         {
             "word": "consister",
-            "index": 516
+            "index": 509
+        },
+        {
+            "word": "solaires",
+            "index": 518
         },
         {
             "word": "concept",
-            "index": 535
+            "index": 529
         },
         {
             "word": "deux",
-            "index": 557
+            "index": 550
         },
         {
             "word": "matières",
-            "index": 558
+            "index": 551
         },
         {
             "word": "premières",
-            "index": 559
+            "index": 552
         },
         {
             "word": "être",
-            "index": 561
+            "index": 554
         },
         {
-            "word": "produit",
-            "index": 562
+            "word": "produits",
+            "index": 555
         }
     ],
     "highrise": [
         {
+            "word": "contenue",
+            "index": 108
+        },
+        {
             "word": "l'énergie",
-            "index": 180
+            "index": 178
         },
         {
             "word": "électrodes",
-            "index": 288
+            "index": 284
         }
     ],
     "highfall": [
         {
-            "word": "cruciales",
-            "index": 378
+            "word": "à",
+            "index": 23
+        },
+        {
+            "word": "est",
+            "index": 107
+        },
+        {
+            "word": "le",
+            "index": 112
+        },
+        {
+            "word": "cruciale",
+            "index": 371
         }
     ]
 }

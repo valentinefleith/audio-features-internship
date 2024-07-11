@@ -2,123 +2,155 @@
     "high": [
         {
             "word": "pas",
-            "index": 2
+            "index": 4
         },
         {
             "word": "remarqué",
-            "index": 6
+            "index": 8
         },
         {
             "word": "parler",
-            "index": 9
-        },
-        {
-            "word": "vaccination",
             "index": 11
         },
         {
+            "word": "vaccination",
+            "index": 13
+        },
+        {
             "word": "temps",
-            "index": 14
+            "index": 16
         },
         {
             "word": "presque",
-            "index": 17
+            "index": 19
         },
         {
             "word": "politique",
-            "index": 24
+            "index": 26
         },
         {
             "word": "personne",
-            "index": 30
+            "index": 33
+        },
+        {
+            "word": "le",
+            "index": 38
         },
         {
             "word": "monde",
-            "index": 37
+            "index": 39
         },
         {
             "word": "même",
-            "index": 53
+            "index": 57
         },
         {
             "word": "grand",
-            "index": 55
+            "index": 59
+        },
+        {
+            "word": "oncle",
+            "index": 60
         },
         {
             "word": "plus",
-            "index": 61
+            "index": 65
         },
         {
-            "word": "à",
-            "index": 72
+            "word": "porté",
+            "index": 66
+        },
+        {
+            "word": "a",
+            "index": 76
         },
         {
             "word": "mot",
-            "index": 75
+            "index": 79
         },
         {
             "word": "pourquoi",
-            "index": 81
+            "index": 85
         },
         {
             "word": "j'avais",
-            "index": 90
+            "index": 94
         },
         {
             "word": "pensé",
-            "index": 91
+            "index": 95
         },
         {
             "word": "débat",
-            "index": 98
+            "index": 101
         },
         {
-            "word": "est",
-            "index": 104
+            "word": "l'idée",
+            "index": 106
         },
         {
             "word": "été",
-            "index": 105
+            "index": 108
         },
         {
             "word": "thèse",
-            "index": 120
+            "index": 127
         },
         {
             "word": "mon",
-            "index": 123
+            "index": 130
         },
         {
             "word": "avis",
-            "index": 124
-        },
-        {
-            "word": "déterminant",
             "index": 131
         },
         {
-            "word": "dans",
-            "index": 132
+            "word": "élément",
+            "index": 137
         },
         {
             "word": "caractère",
-            "index": 140
+            "index": 143
         },
         {
-            "word": "d'une",
+            "word": "à",
             "index": 148
         },
         {
-            "word": "je",
-            "index": 152
+            "word": "l'échec",
+            "index": 149
+        },
+        {
+            "word": "choses",
+            "index": 154
+        },
+        {
+            "word": "parle",
+            "index": 160
+        },
+        {
+            "word": "tout",
+            "index": 161
+        },
+        {
+            "word": "de",
+            "index": 162
         },
         {
             "word": "mesure",
-            "index": 164
+            "index": 165
         },
         {
             "word": "permis",
-            "index": 167
+            "index": 168
+        },
+        {
+            "word": "d'éradiquer",
+            "index": 169
+        },
+        {
+            "word": "l'échelle",
+            "index": 176
         },
         {
             "word": "vous",
@@ -133,690 +165,850 @@
             "index": 184
         },
         {
+            "word": "l'infection",
+            "index": 185
+        },
+        {
+            "word": "grâce",
+            "index": 186
+        },
+        {
+            "word": "au",
+            "index": 187
+        },
+        {
+            "word": "vaccin",
+            "index": 188
+        },
+        {
             "word": "côté",
-            "index": 209
+            "index": 213
         },
         {
             "word": "exactement",
-            "index": 224
+            "index": 226
         },
         {
             "word": "moment",
-            "index": 231
+            "index": 233
         },
         {
-            "word": "j'imagine",
+            "word": "et",
             "index": 234
         },
         {
+            "word": "j'imagine",
+            "index": 237
+        },
+        {
             "word": "que",
-            "index": 235
+            "index": 238
         },
         {
             "word": "d'ici",
-            "index": 246
-        },
-        {
-            "word": "tout",
-            "index": 252
+            "index": 250
         },
         {
             "word": "ça",
-            "index": 261
+            "index": 264
         },
         {
             "word": "tombe",
-            "index": 262
-        },
-        {
-            "word": "parle",
-            "index": 267
+            "index": 265
         },
         {
             "word": "maladie",
-            "index": 275
+            "index": 280
         },
         {
             "word": "déjà",
-            "index": 277
-        },
-        {
-            "word": "syndrome",
             "index": 282
         },
         {
-            "word": "jeu",
+            "word": "syndrome",
             "index": 287
         },
         {
-            "word": "ma",
+            "word": "je",
             "index": 295
         },
         {
             "word": "comprend",
-            "index": 301
+            "index": 304
         },
         {
-            "word": "essaie",
-            "index": 326
+            "word": "assèche",
+            "index": 331
         },
         {
             "word": "beaucoup",
-            "index": 339
-        },
-        {
-            "word": "crise",
-            "index": 344
-        },
-        {
-            "word": "imaginer",
-            "index": 368
-        },
-        {
-            "word": "avancer",
-            "index": 379
-        },
-        {
-            "word": "avant",
-            "index": 380
-        },
-        {
-            "word": "grandes",
-            "index": 401
-        },
-        {
-            "word": "fait",
-            "index": 414
-        },
-        {
-            "word": "rythme",
-            "index": 428
-        },
-        {
-            "word": "existe",
-            "index": 434
-        },
-        {
-            "word": "aucun",
-            "index": 436
-        },
-        {
-            "word": "jeux",
-            "index": 458
-        },
-        {
-            "word": "graines",
-            "index": 459
-        },
-        {
-            "word": "notre",
-            "index": 470
-        },
-        {
-            "word": "habituait",
-            "index": 478
-        },
-        {
-            "word": "regard",
-            "index": 480
-        },
-        {
-            "word": "protéger",
-            "index": 483
-        },
-        {
-            "word": "infections",
-            "index": 486
-        },
-        {
-            "word": "agents",
-            "index": 493
-        },
-        {
-            "word": "du",
-            "index": 494
-        },
-        {
-            "word": "ressemblent",
-            "index": 498
-        },
-        {
-            "word": "soudat",
-            "index": 508
-        },
-        {
-            "word": "ces",
-            "index": 520
-        },
-        {
-            "word": "toupes",
-            "index": 521
-        },
-        {
-            "word": "a",
-            "index": 525
-        },
-        {
-            "word": "identifié",
-            "index": 526
-        },
-        {
-            "word": "ouf",
-            "index": 533
-        },
-        {
-            "word": "spéciales",
-            "index": 539
-        },
-        {
-            "word": "lutte",
-            "index": 542
-        },
-        {
-            "word": "normal",
-            "index": 548
-        },
-        {
-            "word": "présents",
-            "index": 559
-        },
-        {
-            "word": "trop",
-            "index": 562
-        },
-        {
-            "word": "grande",
-            "index": 563
-        },
-        {
-            "word": "grâce",
-            "index": 575
-        },
-        {
-            "word": "france",
-            "index": 583
-        },
-        {
-            "word": "instructeurs",
-            "index": 598
-        },
-        {
-            "word": "commode",
-            "index": 603
-        },
-        {
-            "word": "hyper",
-            "index": 607
-        },
-        {
-            "word": "système",
-            "index": 613
-        },
-        {
-            "word": "réussi",
-            "index": 629
-        },
-        {
-            "word": "sans",
-            "index": 644
+            "index": 342
         },
         {
             "word": "les",
-            "index": 645
+            "index": 354
         },
         {
-            "word": "dommages",
-            "index": 646
-        },
-        {
-            "word": "réguler",
-            "index": 657
-        },
-        {
-            "word": "activité",
-            "index": 660
-        },
-        {
-            "word": "diminuer",
-            "index": 662
-        }
-    ],
-    "low": [
-        {
-            "word": "j'ai",
-            "index": 1
-        },
-        {
-            "word": "vous",
-            "index": 4
-        },
-        {
-            "word": "avez",
-            "index": 5
-        },
-        {
-            "word": "remarqué",
-            "index": 6
-        },
-        {
-            "word": "vaccination",
-            "index": 11
-        },
-        {
-            "word": "dernier",
-            "index": 13
-        },
-        {
-            "word": "devenu",
-            "index": 16
-        },
-        {
-            "word": "compliqué",
-            "index": 19
-        },
-        {
-            "word": "de",
-            "index": 21
-        },
-        {
-            "word": "parler",
-            "index": 22
-        },
-        {
-            "word": "n'est",
-            "index": 31
-        },
-        {
-            "word": "d'accord",
-            "index": 32
-        },
-        {
-            "word": "à",
-            "index": 38
-        },
-        {
-            "word": "avis",
-            "index": 40
-        },
-        {
-            "word": "et",
-            "index": 49
-        },
-        {
-            "word": "dessert",
-            "index": 51
-        },
-        {
-            "word": "votre",
-            "index": 54
-        },
-        {
-            "word": "habituellement",
-            "index": 60
-        },
-        {
-            "word": "son",
-            "index": 74
-        },
-        {
-            "word": "dire",
-            "index": 77
-        },
-        {
-            "word": "aussi",
-            "index": 83
-        },
-        {
-            "word": "question",
-            "index": 88
-        },
-        {
-            "word": "j'avais",
-            "index": 90
-        },
-        {
-            "word": "grande",
-            "index": 97
-        },
-        {
-            "word": "mais",
-            "index": 100
-        },
-        {
-            "word": "bon",
-            "index": 101
-        },
-        {
-            "word": "depuis",
-            "index": 107
-        },
-        {
-            "word": "peu",
-            "index": 117
-        },
-        {
-            "word": "a",
-            "index": 127
-        },
-        {
-            "word": "ma",
-            "index": 133
-        },
-        {
-            "word": "le",
-            "index": 139
-        },
-        {
-            "word": "préventif",
-            "index": 141
-        },
-        {
-            "word": "des",
-            "index": 142
-        },
-        {
-            "word": "vaccins",
-            "index": 143
-        },
-        {
-            "word": "population",
-            "index": 149
-        },
-        {
-            "word": "d'une",
-            "index": 163
-        },
-        {
-            "word": "permis",
-            "index": 167
-        },
-        {
-            "word": "graisse",
-            "index": 186
-        },
-        {
-            "word": "plus",
-            "index": 198
-        },
-        {
-            "word": "on",
-            "index": 211
-        },
-        {
-            "word": "va",
-            "index": 212
-        },
-        {
-            "word": "n'a",
-            "index": 221
-        },
-        {
-            "word": "pas",
-            "index": 222
-        },
-        {
-            "word": "exactement",
-            "index": 224
-        },
-        {
-            "word": "besoin",
-            "index": 225
-        },
-        {
-            "word": "moment",
-            "index": 231
-        },
-        {
-            "word": "puis",
-            "index": 232
-        },
-        {
-            "word": "j'imagine",
-            "index": 234
-        },
-        {
-            "word": "si",
-            "index": 236
-        },
-        {
-            "word": "ne",
-            "index": 249
-        },
-        {
-            "word": "fait",
-            "index": 254
-        },
-        {
-            "word": "en",
-            "index": 255
-        },
-        {
-            "word": "du",
-            "index": 259
-        },
-        {
-            "word": "s'attaque",
-            "index": 273
-        },
-        {
-            "word": "une",
-            "index": 274
-        },
-        {
-            "word": "maladie",
-            "index": 275
-        },
-        {
-            "word": "ah",
-            "index": 290
-        },
-        {
-            "word": "pétition",
-            "index": 298
-        },
-        {
-            "word": "comprend",
-            "index": 301
-        },
-        {
-            "word": "quand",
-            "index": 303
-        },
-        {
-            "word": "me",
-            "index": 305
-        },
-        {
-            "word": "dis",
-            "index": 306
-        },
-        {
-            "word": "même",
-            "index": 310
-        },
-        {
-            "word": "ça",
-            "index": 325
-        },
-        {
-            "word": "c'est",
-            "index": 347
-        },
-        {
-            "word": "voire",
-            "index": 357
+            "word": "yeux",
+            "index": 355
         },
         {
             "word": "la",
             "index": 360
         },
         {
-            "word": "laisse",
-            "index": 366
+            "word": "peau",
+            "index": 361
         },
         {
-            "word": "imaginer",
+            "word": "muqueuse",
+            "index": 367
+        },
+        {
+            "word": "génitale",
             "index": 368
         },
         {
-            "word": "cette",
-            "index": 394
+            "word": "imaginer",
+            "index": 374
         },
         {
-            "word": "les",
-            "index": 400
+            "word": "avancer",
+            "index": 385
         },
         {
-            "word": "sont",
-            "index": 404
+            "word": "avant",
+            "index": 386
         },
         {
-            "word": "mon",
-            "index": 429
+            "word": "gênant",
+            "index": 390
         },
         {
-            "word": "existe",
-            "index": 434
+            "word": "grandes",
+            "index": 405
         },
         {
-            "word": "consensuel",
+            "word": "lacrymales",
+            "index": 414
+        },
+        {
+            "word": "fait",
+            "index": 417
+        },
+        {
+            "word": "n'existe",
+            "index": 438
+        },
+        {
+            "word": "aucun",
             "index": 440
         },
         {
-            "word": "comme",
-            "index": 461
-        },
-        {
-            "word": "dans",
-            "index": 462
-        },
-        {
-            "word": "immunitaire",
-            "index": 475
-        },
-        {
-            "word": "nous",
-            "index": 482
-        },
-        {
-            "word": "contre",
-            "index": 484
-        },
-        {
-            "word": "infections",
-            "index": 486
-        },
-        {
-            "word": "ressemblent",
-            "index": 498
-        },
-        {
-            "word": "soudat",
-            "index": 508
-        },
-        {
-            "word": "pourtant",
-            "index": 512
-        },
-        {
-            "word": "identifié",
-            "index": 526
-        },
-        {
-            "word": "virus",
-            "index": 545
-        },
-        {
-            "word": "tant",
-            "index": 547
-        },
-        {
-            "word": "normal",
-            "index": 548
-        },
-        {
-            "word": "jeux",
-            "index": 555
-        },
-        {
-            "word": "graines",
-            "index": 556
-        },
-        {
-            "word": "quantité",
-            "index": 564
+            "word": "problème",
+            "index": 456
         },
         {
             "word": "notre",
-            "index": 577
+            "index": 473
         },
         {
-            "word": "vaccin",
-            "index": 578
+            "word": "habituellement",
+            "index": 482
         },
         {
-            "word": "plutôt",
-            "index": 595
+            "word": "là",
+            "index": 483
         },
         {
-            "word": "efficace",
-            "index": 608
+            "word": "protéger",
+            "index": 486
         },
         {
-            "word": "pour",
+            "word": "infections",
+            "index": 489
+        },
+        {
+            "word": "agents",
+            "index": 496
+        },
+        {
+            "word": "doubles",
+            "index": 497
+        },
+        {
+            "word": "ressemblent",
+            "index": 500
+        },
+        {
+            "word": "soldats",
+            "index": 511
+        },
+        {
+            "word": "ces",
+            "index": 523
+        },
+        {
+            "word": "taupes",
+            "index": 524
+        },
+        {
+            "word": "identifié",
+            "index": 529
+        },
+        {
+            "word": "alpha",
+            "index": 535
+        },
+        {
+            "word": "spéciale",
+            "index": 540
+        },
+        {
+            "word": "lutte",
+            "index": 543
+        },
+        {
+            "word": "normal",
+            "index": 549
+        },
+        {
+            "word": "dans",
+            "index": 551
+        },
+        {
+            "word": "présent",
+            "index": 558
+        },
+        {
+            "word": "trop",
+            "index": 561
+        },
+        {
+            "word": "grande",
+            "index": 562
+        },
+        {
+            "word": "thérapeutique",
+            "index": 576
+        },
+        {
+            "word": "sergent",
+            "index": 592
+        },
+        {
+            "word": "commode",
+            "index": 596
+        },
+        {
+            "word": "hyper",
+            "index": 600
+        },
+        {
+            "word": "système",
+            "index": 606
+        },
+        {
+            "word": "particulier",
             "index": 610
         },
         {
-            "word": "armée",
-            "index": 625
+            "word": "lymphocytes",
+            "index": 612
         },
         {
-            "word": "fabriquer",
-            "index": 631
+            "word": "artilleurs",
+            "index": 616
         },
         {
-            "word": "ouf",
-            "index": 654
+            "word": "réussi",
+            "index": 623
+        },
+        {
+            "word": "anticorps",
+            "index": 627
+        },
+        {
+            "word": "ball",
+            "index": 632
+        },
+        {
+            "word": "cibler",
+            "index": 645
+        },
+        {
+            "word": "réguler",
+            "index": 649
         },
         {
             "word": "activité",
-            "index": 660
+            "index": 651
         },
         {
-            "word": "dommage",
-            "index": 665
+            "word": "diminuer",
+            "index": 653
         },
         {
-            "word": "texte",
-            "index": 692
+            "word": "sèches",
+            "index": 670
+        },
+        {
+            "word": "emblématique",
+            "index": 673
+        },
+        {
+            "word": "en",
+            "index": 678
+        }
+    ],
+    "low": [
+        {
+            "word": "sais",
+            "index": 3
+        },
+        {
+            "word": "vous",
+            "index": 6
+        },
+        {
+            "word": "avez",
+            "index": 7
+        },
+        {
+            "word": "remarqué",
+            "index": 8
+        },
+        {
+            "word": "vaccination",
+            "index": 13
+        },
+        {
+            "word": "derniers",
+            "index": 15
+        },
+        {
+            "word": "devenu",
+            "index": 18
+        },
+        {
+            "word": "compliqué",
+            "index": 21
+        },
+        {
+            "word": "de",
+            "index": 23
+        },
+        {
+            "word": "parler",
+            "index": 24
+        },
+        {
+            "word": "dîner",
+            "index": 29
+        },
+        {
+            "word": "famille",
+            "index": 31
+        },
+        {
+            "word": "n'est",
+            "index": 34
+        },
+        {
+            "word": "d'accord",
+            "index": 35
+        },
+        {
+            "word": "a",
+            "index": 40
+        },
+        {
+            "word": "avis",
+            "index": 42
+        },
+        {
+            "word": "entre",
+            "index": 49
+        },
+        {
+            "word": "le",
+            "index": 50
+        },
+        {
+            "word": "fromage",
+            "index": 51
+        },
+        {
+            "word": "et",
+            "index": 53
+        },
+        {
+            "word": "dessert",
+            "index": 55
+        },
+        {
+            "word": "votre",
+            "index": 58
+        },
+        {
+            "word": "habituellement",
+            "index": 64
+        },
+        {
+            "word": "la",
+            "index": 68
+        },
+        {
+            "word": "son",
+            "index": 78
+        },
+        {
+            "word": "à",
+            "index": 80
+        },
+        {
+            "word": "aussi",
+            "index": 87
+        },
+        {
+            "word": "question",
+            "index": 92
+        },
+        {
+            "word": "j'avais",
+            "index": 94
+        },
+        {
+            "word": "grand",
+            "index": 100
+        },
+        {
+            "word": "mais",
+            "index": 103
+        },
+        {
+            "word": "bon",
+            "index": 104
+        },
+        {
+            "word": "même",
+            "index": 115
+        },
+        {
+            "word": "peu",
+            "index": 124
+        },
+        {
+            "word": "l'affaire",
+            "index": 140
+        },
+        {
+            "word": "préventif",
+            "index": 144
+        },
+        {
+            "word": "des",
+            "index": 145
+        },
+        {
+            "word": "vaccins",
+            "index": 146
+        },
+        {
+            "word": "d'une",
+            "index": 150
+        },
+        {
+            "word": "population",
+            "index": 151
+        },
+        {
+            "word": "les",
+            "index": 153
+        },
+        {
+            "word": "sont",
+            "index": 155
+        },
+        {
+            "word": "on",
+            "index": 159
+        },
+        {
+            "word": "permis",
+            "index": 168
+        },
+        {
+            "word": "maladies",
+            "index": 171
+        },
+        {
+            "word": "individuelle",
+            "index": 177
+        },
+        {
+            "word": "l'infection",
+            "index": 185
+        },
+        {
+            "word": "plus",
+            "index": 200
+        },
+        {
+            "word": "va",
+            "index": 216
+        },
+        {
+            "word": "d'éviter",
+            "index": 218
+        },
+        {
+            "word": "polémique",
+            "index": 220
+        },
+        {
+            "word": "n'a",
+            "index": 223
+        },
+        {
+            "word": "pas",
+            "index": 224
+        },
+        {
+            "word": "exactement",
+            "index": 226
+        },
+        {
+            "word": "besoin",
+            "index": 227
+        },
+        {
+            "word": "moment",
+            "index": 233
+        },
+        {
+            "word": "puis",
+            "index": 235
+        },
+        {
+            "word": "j'imagine",
+            "index": 237
+        },
+        {
+            "word": "si",
+            "index": 239
+        },
+        {
+            "word": "prêterait",
+            "index": 253
+        },
+        {
+            "word": "fait",
+            "index": 257
+        },
+        {
+            "word": "en",
+            "index": 258
+        },
+        {
+            "word": "ma",
+            "index": 259
+        },
+        {
+            "word": "du",
+            "index": 262
+        },
+        {
+            "word": "thérapeutique",
+            "index": 274
+        },
+        {
+            "word": "s'attaque",
+            "index": 277
+        },
+        {
+            "word": "une",
+            "index": 279
+        },
+        {
+            "word": "maladie",
+            "index": 280
+        },
+        {
+            "word": "ah",
+            "index": 293
+        },
+        {
+            "word": "malgré",
+            "index": 298
+        },
+        {
+            "word": "répétitions",
+            "index": 300
+        },
+        {
+            "word": "comprend",
+            "index": 304
+        },
+        {
+            "word": "quand",
+            "index": 306
+        },
+        {
+            "word": "suédois",
+            "index": 318
+        },
+        {
+            "word": "assèche",
+            "index": 331
+        },
+        {
+            "word": "c'est",
+            "index": 349
+        },
+        {
+            "word": "voire",
+            "index": 363
+        },
+        {
+            "word": "laisse",
+            "index": 372
+        },
+        {
+            "word": "imaginer",
+            "index": 374
+        },
+        {
+            "word": "avant",
+            "index": 386
+        },
+        {
+            "word": "ça",
+            "index": 388
+        },
+        {
+            "word": "soit",
+            "index": 389
+        },
+        {
+            "word": "salivaires",
+            "index": 406
+        },
+        {
+            "word": "lacrymales",
+            "index": 414
+        },
+        {
+            "word": "peau",
+            "index": 428
+        },
+        {
+            "word": "nerfs",
+            "index": 430
+        },
+        {
+            "word": "poumons",
+            "index": 434
+        },
+        {
+            "word": "il",
+            "index": 437
+        },
+        {
+            "word": "n'existe",
+            "index": 438
+        },
+        {
+            "word": "consensuel",
+            "index": 444
+        },
+        {
+            "word": "dans",
+            "index": 457
+        },
+        {
+            "word": "syndrome",
+            "index": 459
+        },
+        {
+            "word": "auto",
+            "index": 468
+        },
+        {
+            "word": "immunitaire",
+            "index": 478
+        },
+        {
+            "word": "nous",
+            "index": 485
+        },
+        {
+            "word": "contre",
+            "index": 487
+        },
+        {
+            "word": "infections",
+            "index": 489
+        },
+        {
+            "word": "ressemblent",
+            "index": 500
+        },
+        {
+            "word": "bons",
+            "index": 509
+        },
+        {
+            "word": "soldats",
+            "index": 511
+        },
+        {
+            "word": "pourtant",
+            "index": 515
+        },
+        {
+            "word": "identifié",
+            "index": 529
+        },
+        {
+            "word": "alpha",
+            "index": 535
+        },
+        {
+            "word": "virus",
+            "index": 546
+        },
+        {
+            "word": "temps",
+            "index": 548
+        },
+        {
+            "word": "normal",
+            "index": 549
+        },
+        {
+            "word": "est",
+            "index": 557
+        },
+        {
+            "word": "quantité",
+            "index": 563
+        },
+        {
+            "word": "devient",
+            "index": 566
+        },
+        {
+            "word": "notre",
+            "index": 574
+        },
+        {
+            "word": "vaccin",
+            "index": 575
+        },
+        {
+            "word": "ou",
+            "index": 588
+        },
+        {
+            "word": "sergent",
+            "index": 592
+        },
+        {
+            "word": "efficace",
+            "index": 601
+        },
+        {
+            "word": "pour",
+            "index": 603
+        },
+        {
+            "word": "nos",
+            "index": 611
+        },
+        {
+            "word": "armée",
+            "index": 619
+        },
+        {
+            "word": "fabriquer",
+            "index": 625
+        },
+        {
+            "word": "voulez",
+            "index": 636
+        },
+        {
+            "word": "collatéraux",
+            "index": 641
+        },
+        {
+            "word": "aller",
+            "index": 644
+        },
+        {
+            "word": "activité",
+            "index": 651
+        },
+        {
+            "word": "diminuer",
+            "index": 653
+        },
+        {
+            "word": "dommages",
+            "index": 655
+        },
+        {
+            "word": "souris",
+            "index": 669
+        },
+        {
+            "word": "modèle",
+            "index": 671
+        },
+        {
+            "word": "loups",
+            "index": 679
+        },
+        {
+            "word": "textiles",
+            "index": 682
         }
     ],
     "highrise": [
         {
             "word": "dessert",
-            "index": 51
+            "index": 55
         },
         {
-            "word": "même",
-            "index": 585
+            "word": "polémique",
+            "index": 220
+        },
+        {
+            "word": "la",
+            "index": 427
         },
         {
             "word": "immunitaire",
-            "index": 614
+            "index": 607
         },
         {
             "word": "armée",
-            "index": 625
+            "index": 619
         }
     ],
     "highfall": [
         {
-            "word": "toupes",
-            "index": 490
+            "word": "claires",
+            "index": 157
+        },
+        {
+            "word": "taupes",
+            "index": 493
         },
         {
             "word": "coup",
-            "index": 668
+            "index": 658
         }
     ]
 }
