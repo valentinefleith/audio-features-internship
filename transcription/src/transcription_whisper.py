@@ -18,7 +18,6 @@ def get_transcription_from_audio(video_path, data_dir):
             f.write(f"{segment['text']}\n")
 
 
-
 def main():
     if len(sys.argv) != 2:
         sys.exit("Usage: python3 transcription_wtimestamps.py /path/to/corpus")
