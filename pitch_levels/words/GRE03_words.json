@@ -1,0 +1,874 @@
+{
+    "high": [
+        {
+            "word": "univers",
+            "index": 4
+        },
+        {
+            "word": "parallèle",
+            "index": 5
+        },
+        {
+            "word": "lequel",
+            "index": 8
+        },
+        {
+            "word": "chauffeur",
+            "index": 16
+        },
+        {
+            "word": "styliste",
+            "index": 25
+        },
+        {
+            "word": "cuisinier",
+            "index": 28
+        },
+        {
+            "word": "vos",
+            "index": 35
+        },
+        {
+            "word": "plats",
+            "index": 36
+        },
+        {
+            "word": "finance",
+            "index": 44
+        },
+        {
+            "word": "préoccupe",
+            "index": 54
+        },
+        {
+            "word": "toujours",
+            "index": 59
+        },
+        {
+            "word": "appelons",
+            "index": 66
+        },
+        {
+            "word": "ces",
+            "index": 73
+        },
+        {
+            "word": "personnes",
+            "index": 74
+        },
+        {
+            "word": "décennies",
+            "index": 85
+        },
+        {
+            "word": "réussi",
+            "index": 91
+        },
+        {
+            "word": "aux",
+            "index": 103
+        },
+        {
+            "word": "s'intéressent",
+            "index": 111
+        },
+        {
+            "word": "comment",
+            "index": 114
+        },
+        {
+            "word": "il",
+            "index": 127
+        },
+        {
+            "word": "attente",
+            "index": 131
+        },
+        {
+            "word": "parentalité",
+            "index": 135
+        },
+        {
+            "word": "soit",
+            "index": 136
+        },
+        {
+            "word": "une",
+            "index": 140
+        },
+        {
+            "word": "positive",
+            "index": 143
+        },
+        {
+            "word": "reçoivent",
+            "index": 148
+        },
+        {
+            "word": "des",
+            "index": 149
+        },
+        {
+            "word": "jolies",
+            "index": 150
+        },
+        {
+            "word": "félicitations",
+            "index": 154
+        },
+        {
+            "word": "de",
+            "index": 158
+        },
+        {
+            "word": "monde",
+            "index": 178
+        },
+        {
+            "word": "vrai",
+            "index": 182
+        },
+        {
+            "word": "fatigue",
+            "index": 197
+        },
+        {
+            "word": "papas",
+            "index": 215
+        },
+        {
+            "word": "n'arrivent",
+            "index": 216
+        },
+        {
+            "word": "sentir",
+            "index": 220
+        },
+        {
+            "word": "accomplis",
+            "index": 222
+        },
+        {
+            "word": "les",
+            "index": 242
+        },
+        {
+            "word": "surpris",
+            "index": 248
+        },
+        {
+            "word": "parents",
+            "index": 252
+        },
+        {
+            "word": "eux",
+            "index": 253
+        },
+        {
+            "word": "mêmes",
+            "index": 254
+        },
+        {
+            "word": "savent",
+            "index": 256
+        },
+        {
+            "word": "souffrent",
+            "index": 259
+        },
+        {
+            "word": "conséquences",
+            "index": 265
+        },
+        {
+            "word": "violences",
+            "index": 279
+        },
+        {
+            "word": "couples",
+            "index": 293
+        },
+        {
+            "word": "familles",
+            "index": 296
+        },
+        {
+            "word": "rôle",
+            "index": 301
+        },
+        {
+            "word": "collègues",
+            "index": 316
+        },
+        {
+            "word": "nous",
+            "index": 317
+        },
+        {
+            "word": "conçu",
+            "index": 319
+        },
+        {
+            "word": "programme",
+            "index": 321
+        },
+        {
+            "word": "qui",
+            "index": 325
+        },
+        {
+            "word": "redonner",
+            "index": 328
+        },
+        {
+            "word": "sérénité",
+            "index": 334
+        },
+        {
+            "word": "du",
+            "index": 336
+        },
+        {
+            "word": "satisfaction",
+            "index": 341
+        },
+        {
+            "word": "l'atelier",
+            "index": 346
+        },
+        {
+            "word": "j'invite",
+            "index": 348
+        },
+        {
+            "word": "conscience",
+            "index": 362
+        },
+        {
+            "word": "gestion",
+            "index": 365
+        },
+        {
+            "word": "efficace",
+            "index": 378
+        },
+        {
+            "word": "je",
+            "index": 383
+        },
+        {
+            "word": "dans",
+            "index": 386
+        },
+        {
+            "word": "dire",
+            "index": 396
+        },
+        {
+            "word": "psychologue",
+            "index": 399
+        },
+        {
+            "word": "normal",
+            "index": 403
+        },
+        {
+            "word": "regarde",
+            "index": 408
+        },
+        {
+            "word": "cheveux",
+            "index": 412
+        },
+        {
+            "word": "l'efficacité",
+            "index": 416
+        },
+        {
+            "word": "à",
+            "index": 433
+        },
+        {
+            "word": "la",
+            "index": 434
+        },
+        {
+            "word": "comparer",
+            "index": 440
+        },
+        {
+            "word": "n'apprend",
+            "index": 468
+        },
+        {
+            "word": "pas",
+            "index": 469
+        },
+        {
+            "word": "peut",
+            "index": 486
+        },
+        {
+            "word": "être",
+            "index": 487
+        },
+        {
+            "word": "travaux",
+            "index": 496
+        },
+        {
+            "word": "j'essaye",
+            "index": 497
+        },
+        {
+            "word": "trouver",
+            "index": 500
+        }
+    ],
+    "low": [
+        {
+            "word": "imaginez",
+            "index": 1
+        },
+        {
+            "word": "univers",
+            "index": 4
+        },
+        {
+            "word": "parallèle",
+            "index": 5
+        },
+        {
+            "word": "dans",
+            "index": 7
+        },
+        {
+            "word": "lequel",
+            "index": 8
+        },
+        {
+            "word": "vous",
+            "index": 9
+        },
+        {
+            "word": "privé",
+            "index": 17
+        },
+        {
+            "word": "garde",
+            "index": 20
+        },
+        {
+            "word": "styliste",
+            "index": 25
+        },
+        {
+            "word": "qui",
+            "index": 29
+        },
+        {
+            "word": "prépare",
+            "index": 30
+        },
+        {
+            "word": "préférés",
+            "index": 37
+        },
+        {
+            "word": "et",
+            "index": 39
+        },
+        {
+            "word": "vos",
+            "index": 45
+        },
+        {
+            "word": "projets",
+            "index": 46
+        },
+        {
+            "word": "préoccupe",
+            "index": 54
+        },
+        {
+            "word": "que",
+            "index": 56
+        },
+        {
+            "word": "soyez",
+            "index": 58
+        },
+        {
+            "word": "toujours",
+            "index": 59
+        },
+        {
+            "word": "heureux",
+            "index": 61
+        },
+        {
+            "word": "appelons",
+            "index": 66
+        },
+        {
+            "word": "le",
+            "index": 67
+        },
+        {
+            "word": "toutes",
+            "index": 72
+        },
+        {
+            "word": "extraordinaires",
+            "index": 76
+        },
+        {
+            "word": "les",
+            "index": 79
+        },
+        {
+            "word": "depuis",
+            "index": 83
+        },
+        {
+            "word": "décennies",
+            "index": 85
+        },
+        {
+            "word": "psychologues",
+            "index": 88
+        },
+        {
+            "word": "ont",
+            "index": 90
+        },
+        {
+            "word": "réussi",
+            "index": 91
+        },
+        {
+            "word": "à",
+            "index": 92
+        },
+        {
+            "word": "attribuer",
+            "index": 93
+        },
+        {
+            "word": "responsabilité",
+            "index": 95
+        },
+        {
+            "word": "de",
+            "index": 96
+        },
+        {
+            "word": "malheur",
+            "index": 99
+        },
+        {
+            "word": "monde",
+            "index": 101
+        },
+        {
+            "word": "parents",
+            "index": 104
+        },
+        {
+            "word": "peu",
+            "index": 108
+        },
+        {
+            "word": "spécialistes",
+            "index": 110
+        },
+        {
+            "word": "s'intéressent",
+            "index": 111
+        },
+        {
+            "word": "vivent",
+            "index": 120
+        },
+        {
+            "word": "leur",
+            "index": 121
+        },
+        {
+            "word": "parentalité",
+            "index": 122
+        },
+        {
+            "word": "notre",
+            "index": 125
+        },
+        {
+            "word": "a",
+            "index": 129
+        },
+        {
+            "word": "une",
+            "index": 130
+        },
+        {
+            "word": "attente",
+            "index": 131
+        },
+        {
+            "word": "la",
+            "index": 134
+        },
+        {
+            "word": "expérience",
+            "index": 141
+        },
+        {
+            "word": "positive",
+            "index": 143
+        },
+        {
+            "word": "cartes",
+            "index": 151
+        },
+        {
+            "word": "des",
+            "index": 153
+        },
+        {
+            "word": "félicitations",
+            "index": 154
+        },
+        {
+            "word": "petits",
+            "index": 159
+        },
+        {
+            "word": "cadeaux",
+            "index": 160
+        },
+        {
+            "word": "mignons",
+            "index": 161
+        },
+        {
+            "word": "enfants",
+            "index": 164
+        },
+        {
+            "word": "sont",
+            "index": 165
+        },
+        {
+            "word": "gentils",
+            "index": 166
+        },
+        {
+            "word": "cela",
+            "index": 180
+        },
+        {
+            "word": "en",
+            "index": 190
+        },
+        {
+            "word": "ça",
+            "index": 195
+        },
+        {
+            "word": "fatigue",
+            "index": 197
+        },
+        {
+            "word": "mamans",
+            "index": 212
+        },
+        {
+            "word": "se",
+            "index": 219
+        },
+        {
+            "word": "sentir",
+            "index": 220
+        },
+        {
+            "word": "accomplis",
+            "index": 222
+        },
+        {
+            "word": "rôle",
+            "index": 226
+        },
+        {
+            "word": "parent",
+            "index": 228
+        },
+        {
+            "word": "plus",
+            "index": 240
+        },
+        {
+            "word": "hommes",
+            "index": 243
+        },
+        {
+            "word": "d'affaires",
+            "index": 244
+        },
+        {
+            "word": "êtes",
+            "index": 247
+        },
+        {
+            "word": "souvent",
+            "index": 250
+        },
+        {
+            "word": "qu'ils",
+            "index": 258
+        },
+        {
+            "word": "conflits",
+            "index": 275
+        },
+        {
+            "word": "négligences",
+            "index": 283
+        },
+        {
+            "word": "maltraitances",
+            "index": 286
+        },
+        {
+            "word": "l'enfant",
+            "index": 290
+        },
+        {
+            "word": "entières",
+            "index": 298
+        },
+        {
+            "word": "mon",
+            "index": 300
+        },
+        {
+            "word": "psychologue",
+            "index": 305
+        },
+        {
+            "word": "prévenir",
+            "index": 309
+        },
+        {
+            "word": "l'épuisement",
+            "index": 310
+        },
+        {
+            "word": "avec",
+            "index": 314
+        },
+        {
+            "word": "prévention",
+            "index": 323
+        },
+        {
+            "word": "sérénité",
+            "index": 334
+        },
+        {
+            "word": "choix",
+            "index": 337
+        },
+        {
+            "word": "satisfaction",
+            "index": 341
+        },
+        {
+            "word": "l'atelier",
+            "index": 346
+        },
+        {
+            "word": "techniques",
+            "index": 354
+        },
+        {
+            "word": "conscience",
+            "index": 362
+        },
+        {
+            "word": "gestion",
+            "index": 365
+        },
+        {
+            "word": "émotions",
+            "index": 368
+        },
+        {
+            "word": "savoir",
+            "index": 373
+        },
+        {
+            "word": "intervention",
+            "index": 376
+        },
+        {
+            "word": "est",
+            "index": 377
+        },
+        {
+            "word": "fouille",
+            "index": 385
+        },
+        {
+            "word": "tête",
+            "index": 388
+        },
+        {
+            "word": "donc",
+            "index": 400
+        },
+        {
+            "word": "c'est",
+            "index": 402
+        },
+        {
+            "word": "normal",
+            "index": 403
+        },
+        {
+            "word": "je",
+            "index": 407
+        },
+        {
+            "word": "aussi",
+            "index": 410
+        },
+        {
+            "word": "leurs",
+            "index": 411
+        },
+        {
+            "word": "cheveux",
+            "index": 412
+        },
+        {
+            "word": "évaluer",
+            "index": 415
+        },
+        {
+            "word": "l'efficacité",
+            "index": 416
+        },
+        {
+            "word": "cette",
+            "index": 418
+        },
+        {
+            "word": "petites",
+            "index": 425
+        },
+        {
+            "word": "mèches",
+            "index": 426
+        },
+        {
+            "word": "avant",
+            "index": 430
+        },
+        {
+            "word": "du",
+            "index": 436
+        },
+        {
+            "word": "programme",
+            "index": 437
+        },
+        {
+            "word": "comparer",
+            "index": 440
+        },
+        {
+            "word": "taux",
+            "index": 442
+        },
+        {
+            "word": "l'amélioration",
+            "index": 455
+        },
+        {
+            "word": "état",
+            "index": 458
+        },
+        {
+            "word": "on",
+            "index": 467
+        },
+        {
+            "word": "l'école",
+            "index": 471
+        },
+        {
+            "word": "être",
+            "index": 474
+        },
+        {
+            "word": "bon",
+            "index": 476
+        },
+        {
+            "word": "trop",
+            "index": 482
+        },
+        {
+            "word": "long",
+            "index": 483
+        },
+        {
+            "word": "d'études",
+            "index": 484
+        },
+        {
+            "word": "mes",
+            "index": 495
+        },
+        {
+            "word": "solutions",
+            "index": 502
+        }
+    ],
+    "highrise": [
+        {
+            "word": "sympa",
+            "index": 42
+        },
+        {
+            "word": "univers",
+            "index": 64
+        },
+        {
+            "word": "spécialistes",
+            "index": 110
+        },
+        {
+            "word": "eux",
+            "index": 118
+        },
+        {
+            "word": "intervention",
+            "index": 419
+        }
+    ],
+    "highfall": [
+        {
+            "word": "tout",
+            "index": 186
+        },
+        {
+            "word": "en",
+            "index": 302
+        },
+        {
+            "word": "aux",
+            "index": 329
+        }
+    ]
+}

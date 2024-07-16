@@ -1,0 +1,850 @@
+{
+    "high": [
+        {
+            "word": "fermez",
+            "index": 6
+        },
+        {
+            "word": "imaginez",
+            "index": 11
+        },
+        {
+            "word": "fois",
+            "index": 21
+        },
+        {
+            "word": "ouvrir",
+            "index": 29
+        },
+        {
+            "word": "sont",
+            "index": 48
+        },
+        {
+            "word": "ce",
+            "index": 61
+        },
+        {
+            "word": "que",
+            "index": 62
+        },
+        {
+            "word": "premier",
+            "index": 78
+        },
+        {
+            "word": "allons",
+            "index": 82
+        },
+        {
+            "word": "nous",
+            "index": 83
+        },
+        {
+            "word": "saisir",
+            "index": 84
+        },
+        {
+            "word": "peu",
+            "index": 86
+        },
+        {
+            "word": "tous",
+            "index": 93
+        },
+        {
+            "word": "avec",
+            "index": 100
+        },
+        {
+            "word": "creux",
+            "index": 108
+        },
+        {
+            "word": "fait",
+            "index": 120
+        },
+        {
+            "word": "quand",
+            "index": 131
+        },
+        {
+            "word": "on",
+            "index": 132
+        },
+        {
+            "word": "zone",
+            "index": 135
+        },
+        {
+            "word": "rend",
+            "index": 142
+        },
+        {
+            "word": "compte",
+            "index": 143
+        },
+        {
+            "word": "qu'aucune",
+            "index": 145
+        },
+        {
+            "word": "fous",
+            "index": 162
+        },
+        {
+            "word": "prenons",
+            "index": 174
+        },
+        {
+            "word": "coude",
+            "index": 188
+        },
+        {
+            "word": "pourquoi",
+            "index": 198
+        },
+        {
+            "word": "est",
+            "index": 202
+        },
+        {
+            "word": "rugosités",
+            "index": 207
+        },
+        {
+            "word": "qu'est",
+            "index": 208
+        },
+        {
+            "word": "petites",
+            "index": 216
+        },
+        {
+            "word": "plus",
+            "index": 223
+        },
+        {
+            "word": "seront",
+            "index": 226
+        },
+        {
+            "word": "la",
+            "index": 230
+        },
+        {
+            "word": "ressentie",
+            "index": 232
+        },
+        {
+            "word": "aussi",
+            "index": 236
+        },
+        {
+            "word": "bout",
+            "index": 247
+        },
+        {
+            "word": "de",
+            "index": 248
+        },
+        {
+            "word": "se",
+            "index": 257
+        },
+        {
+            "word": "certaines",
+            "index": 261
+        },
+        {
+            "word": "alors",
+            "index": 269
+        },
+        {
+            "word": "toute",
+            "index": 273
+        },
+        {
+            "word": "des",
+            "index": 284
+        },
+        {
+            "word": "lorsque",
+            "index": 287
+        },
+        {
+            "word": "ressors",
+            "index": 295
+        },
+        {
+            "word": "me",
+            "index": 324
+        },
+        {
+            "word": "tout",
+            "index": 327
+        },
+        {
+            "word": "structure",
+            "index": 332
+        },
+        {
+            "word": "géométrique",
+            "index": 333
+        },
+        {
+            "word": "cette",
+            "index": 338
+        },
+        {
+            "word": "voulez",
+            "index": 342
+        },
+        {
+            "word": "juste",
+            "index": 347
+        },
+        {
+            "word": "photographie",
+            "index": 354
+        },
+        {
+            "word": "prise",
+            "index": 358
+        },
+        {
+            "word": "bulles",
+            "index": 373
+        },
+        {
+            "word": "unes",
+            "index": 377
+        },
+        {
+            "word": "contre",
+            "index": 378
+        },
+        {
+            "word": "à",
+            "index": 390
+        },
+        {
+            "word": "leur",
+            "index": 392
+        },
+        {
+            "word": "voyez",
+            "index": 396
+        },
+        {
+            "word": "canaux",
+            "index": 409
+        },
+        {
+            "word": "taille",
+            "index": 415
+        },
+        {
+            "word": "l'humidité",
+            "index": 427
+        },
+        {
+            "word": "avons",
+            "index": 454
+        },
+        {
+            "word": "mon",
+            "index": 457
+        },
+        {
+            "word": "d'une",
+            "index": 469
+        },
+        {
+            "word": "cruciale",
+            "index": 471
+        },
+        {
+            "word": "question",
+            "index": 475
+        },
+        {
+            "word": "même",
+            "index": 490
+        },
+        {
+            "word": "toutes",
+            "index": 501
+        },
+        {
+            "word": "transition",
+            "index": 513
+        },
+        {
+            "word": "je",
+            "index": 515
+        },
+        {
+            "word": "dépose",
+            "index": 516
+        },
+        {
+            "word": "morale",
+            "index": 529
+        },
+        {
+            "word": "adapter",
+            "index": 540
+        },
+        {
+            "word": "vous",
+            "index": 570
+        },
+        {
+            "word": "incite",
+            "index": 571
+        },
+        {
+            "word": "vrai",
+            "index": 583
+        },
+        {
+            "word": "quelques",
+            "index": 590
+        },
+        {
+            "word": "l'étonnante",
+            "index": 593
+        },
+        {
+            "word": "petite",
+            "index": 622
+        }
+    ],
+    "low": [
+        {
+            "word": "respirez",
+            "index": 1
+        },
+        {
+            "word": "grand",
+            "index": 3
+        },
+        {
+            "word": "yeux",
+            "index": 8
+        },
+        {
+            "word": "vous",
+            "index": 12
+        },
+        {
+            "word": "secondes",
+            "index": 14
+        },
+        {
+            "word": "une",
+            "index": 20
+        },
+        {
+            "word": "êtes",
+            "index": 25
+        },
+        {
+            "word": "doucement",
+            "index": 30
+        },
+        {
+            "word": "et",
+            "index": 34
+        },
+        {
+            "word": "les",
+            "index": 36
+        },
+        {
+            "word": "de",
+            "index": 38
+        },
+        {
+            "word": "savon",
+            "index": 39
+        },
+        {
+            "word": "que",
+            "index": 40
+        },
+        {
+            "word": "avez",
+            "index": 42
+        },
+        {
+            "word": "autour",
+            "index": 43
+        },
+        {
+            "word": "elles",
+            "index": 47
+        },
+        {
+            "word": "magnifiques",
+            "index": 49
+        },
+        {
+            "word": "mais",
+            "index": 51
+        },
+        {
+            "word": "mon",
+            "index": 55
+        },
+        {
+            "word": "sujet",
+            "index": 56
+        },
+        {
+            "word": "thèse",
+            "index": 58
+        },
+        {
+            "word": "fais",
+            "index": 64
+        },
+        {
+            "word": "avec",
+            "index": 65
+        },
+        {
+            "word": "moi",
+            "index": 74
+        },
+        {
+            "word": "dans",
+            "index": 76
+        },
+        {
+            "word": "nous",
+            "index": 91
+        },
+        {
+            "word": "avons",
+            "index": 92
+        },
+        {
+            "word": "mousse",
+            "index": 102
+        },
+        {
+            "word": "nettoyer",
+            "index": 105
+        },
+        {
+            "word": "le",
+            "index": 107
+        },
+        {
+            "word": "notre",
+            "index": 110
+        },
+        {
+            "word": "si",
+            "index": 113
+        },
+        {
+            "word": "regarde",
+            "index": 115
+        },
+        {
+            "word": "cet",
+            "index": 116
+        },
+        {
+            "word": "endroit",
+            "index": 117
+        },
+        {
+            "word": "en",
+            "index": 119
+        },
+        {
+            "word": "nettoie",
+            "index": 133
+        },
+        {
+            "word": "cette",
+            "index": 134
+        },
+        {
+            "word": "la",
+            "index": 137
+        },
+        {
+            "word": "bulle",
+            "index": 146
+        },
+        {
+            "word": "ne",
+            "index": 147
+        },
+        {
+            "word": "accrochée",
+            "index": 149
+        },
+        {
+            "word": "alors",
+            "index": 151
+        },
+        {
+            "word": "expérience",
+            "index": 156
+        },
+        {
+            "word": "soyons",
+            "index": 158
+        },
+        {
+            "word": "peu",
+            "index": 160
+        },
+        {
+            "word": "plus",
+            "index": 161
+        },
+        {
+            "word": "faisons",
+            "index": 164
+        },
+        {
+            "word": "des",
+            "index": 166
+        },
+        {
+            "word": "totalement",
+            "index": 168
+        },
+        {
+            "word": "différentes",
+            "index": 169
+        },
+        {
+            "word": "différente",
+            "index": 195
+        },
+        {
+            "word": "parce",
+            "index": 200
+        },
+        {
+            "word": "qu'elle",
+            "index": 201
+        },
+        {
+            "word": "rugueuse",
+            "index": 204
+        },
+        {
+            "word": "rugosités",
+            "index": 207
+        },
+        {
+            "word": "ce",
+            "index": 213
+        },
+        {
+            "word": "bosses",
+            "index": 217
+        },
+        {
+            "word": "peau",
+            "index": 220
+        },
+        {
+            "word": "grandes",
+            "index": 227
+        },
+        {
+            "word": "rugosité",
+            "index": 231
+        },
+        {
+            "word": "ressentie",
+            "index": 232
+        },
+        {
+            "word": "sera",
+            "index": 233
+        },
+        {
+            "word": "aussi",
+            "index": 236
+        },
+        {
+            "word": "quand",
+            "index": 242
+        },
+        {
+            "word": "on",
+            "index": 243
+        },
+        {
+            "word": "coude",
+            "index": 250
+        },
+        {
+            "word": "compte",
+            "index": 259
+        },
+        {
+            "word": "bulles",
+            "index": 262
+        },
+        {
+            "word": "là",
+            "index": 270
+        },
+        {
+            "word": "c'est",
+            "index": 272
+        },
+        {
+            "word": "question",
+            "index": 275
+        },
+        {
+            "word": "ma",
+            "index": 277
+        },
+        {
+            "word": "est",
+            "index": 281
+        },
+        {
+            "word": "fois",
+            "index": 285
+        },
+        {
+            "word": "je",
+            "index": 288
+        },
+        {
+            "word": "moussant",
+            "index": 293
+        },
+        {
+            "word": "sans",
+            "index": 296
+        },
+        {
+            "word": "collée",
+            "index": 301
+        },
+        {
+            "word": "corps",
+            "index": 304
+        },
+        {
+            "word": "intéressée",
+            "index": 326
+        },
+        {
+            "word": "particulièrement",
+            "index": 328
+        },
+        {
+            "word": "à",
+            "index": 330
+        },
+        {
+            "word": "géométrique",
+            "index": 333
+        },
+        {
+            "word": "structure",
+            "index": 339
+        },
+        {
+            "word": "voir",
+            "index": 344
+        },
+        {
+            "word": "photographie",
+            "index": 354
+        },
+        {
+            "word": "j'ai",
+            "index": 357
+        },
+        {
+            "word": "lors",
+            "index": 359
+        },
+        {
+            "word": "mes",
+            "index": 362
+        },
+        {
+            "word": "expériences",
+            "index": 363
+        },
+        {
+            "word": "qu'on",
+            "index": 366
+        },
+        {
+            "word": "y",
+            "index": 367
+        },
+        {
+            "word": "sont",
+            "index": 374
+        },
+        {
+            "word": "autres",
+            "index": 380
+        },
+        {
+            "word": "géométriques",
+            "index": 386
+        },
+        {
+            "word": "intersection",
+            "index": 393
+        },
+        {
+            "word": "liquide",
+            "index": 411
+        },
+        {
+            "word": "ces",
+            "index": 417
+        },
+        {
+            "word": "canaux",
+            "index": 418
+        },
+        {
+            "word": "l'humidité",
+            "index": 427
+        },
+        {
+            "word": "taille",
+            "index": 446
+        },
+        {
+            "word": "montré",
+            "index": 455
+        },
+        {
+            "word": "importance",
+            "index": 470
+        },
+        {
+            "word": "cruciale",
+            "index": 471
+        },
+        {
+            "word": "votre",
+            "index": 496
+        },
+        {
+            "word": "ou",
+            "index": 499
+        },
+        {
+            "word": "surfaces",
+            "index": 503
+        },
+        {
+            "word": "transition",
+            "index": 513
+        },
+        {
+            "word": "n'en",
+            "index": 522
+        },
+        {
+            "word": "dépose",
+            "index": 523
+        },
+        {
+            "word": "du",
+            "index": 525
+        },
+        {
+            "word": "histoire",
+            "index": 532
+        },
+        {
+            "word": "pourrait",
+            "index": 533
+        },
+        {
+            "word": "d'accord",
+            "index": 536
+        },
+        {
+            "word": "adapter",
+            "index": 540
+        },
+        {
+            "word": "veux",
+            "index": 545
+        },
+        {
+            "word": "utiliser",
+            "index": 546
+        },
+        {
+            "word": "côté",
+            "index": 558
+        },
+        {
+            "word": "poésie",
+            "index": 563
+        },
+        {
+            "word": "car",
+            "index": 568
+        },
+        {
+            "word": "serez",
+            "index": 576
+        },
+        {
+            "word": "complexité",
+            "index": 594
+        },
+        {
+            "word": "fabriquée",
+            "index": 601
+        },
+        {
+            "word": "adonner",
+            "index": 609
+        },
+        {
+            "word": "l'émerveillement",
+            "index": 625
+        }
+    ],
+    "highrise": [
+        {
+            "word": "mousse",
+            "index": 179
+        }
+    ],
+    "highfall": [
+        {
+            "word": "petites",
+            "index": 216
+        },
+        {
+            "word": "pourquoi",
+            "index": 280
+        },
+        {
+            "word": "géométriques",
+            "index": 386
+        }
+    ]
+}
