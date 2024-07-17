@@ -14,7 +14,7 @@ def add_line(feature_csv, profile_path):
     Returns:
     - pd.DataFrame: The updated DataFrame with the new line and ID column appended.
     """
-    profile_id = os.path.basename(profile_path).replace(".txt", "")
+    profile_id = os.path.basename(profile_path).replace(".txt", "").split("_")[0]
     profile_data = pd.read_csv(profile_path, sep="\t")
     profile_data["ID"] = profile_id
     return pd.concat([feature_csv, profile_data], ignore_index=True)
