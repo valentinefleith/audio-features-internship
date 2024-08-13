@@ -97,3 +97,60 @@ for i in range(2, 6):
   show_images(images)
   x += images
   y += labels
+
+"""Split the images and labels into 2 datasets - one for training and one for testing. Then divide the pixel value by 255 and use Keras's `to_categorical` function."""
+
+from tensorflow.keras.utils import to_categorical
+from sklearn.model_selection import train_test_split
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, stratify=y, test_size=0.3, random_state=0)
+
+x_train_norm = np.array(x_train) / 255
+x_test_norm = np.array(x_test) / 255
+
+y_train_encoded = to_categorical(y_train)
+y_test_encoded = to_categorical(y_test)
+
+"""## Build and train the CNN
+
+The next step is to build a CNN containing a series of convolution and pooling layers for feature extraction, a pair of fully connected layers for classification, a softmax layer that outputs probabilities for each class, and to train it with spectrogram images and labels.
+
+First step is defining the CNN.
+"""
+
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+
+model = Sequential()
+model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(224, 224, 3)))
+model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(128, (3, 3), activation='relu'))
+model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(128, (3, 3), activation='relu'))
+model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(128, (3, 3), activation='relu'))
+model.add(MaxPooling2D((2, 2)))
+model.add(Flatten())
+model.add(Dense(1024, activation='relu'))
+model.add(Dense(6, activation='softmax'))
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+model.summary()
+
+"""Train the CNN and save the history object returned by fit in a local variable."""
+
+hist = model.fit(x_train_norm, y_train_encoded, epochs=10, validation_data=(x_test_norm, y_test_encoded), batch_size=10)
+
+"""Plot the training and validation accuracy."""
+
+acc = hist.history['accuracy']
+val_acc = hist.history['val_accuracy']
+epochs = range(1, len(acc) + 1)
+
+plt.plot(epochs, acc, '-', label='Training accuracy')
+plt.plot(epochs, val_acc, ':', label='Validation accuracy')
+plt.title('Training and validation accuracy')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.legend(loc='lower right')
+plt.show()
