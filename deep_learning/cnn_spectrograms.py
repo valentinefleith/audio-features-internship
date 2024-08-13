@@ -50,16 +50,16 @@ def create_pngs_from_wavs(input_path, output_path):
       continue
     create_spectrogram(input_file, output_file)
 
-for i in range(2, 6):
-  create_pngs_from_wavs(f"/content/drive/My Drive/Internship/Audio/{i}", f"/content/drive/My Drive/Internship/Spectrograms/{i}")
+create_pngs_from_wavs(f"/content/drive/My Drive/Internship/Audio/Persuasive", f"/content/drive/My Drive/Internship/Spectrograms/Persuasive")
+create_pngs_from_wavs(f"/content/drive/My Drive/Internship/Audio/NonPersuasive", f"/content/drive/My Drive/Internship/Spectrograms/NonPersuasive")
 
 """Check if the number of spectrograms corresponds to the number of audio files:"""
 
 total_len = 0
 
-for i in range(2, 6):
-  total_len += len(os.listdir(f'/content/drive/My Drive/Internship/Spectrograms/{i}'))
-  if len(os.listdir(f'/content/drive/My Drive/Internship/Spectrograms/{i}')) == len(os.listdir(f'/content/drive/My Drive/Internship/Audio/{i}')):
+for cat in ["Persuasive", "NonPersuasive"]:
+  total_len += len(os.listdir(f'/content/drive/My Drive/Internship/Spectrograms/{cat}'))
+  if len(os.listdir(f'/content/drive/My Drive/Internship/Spectrograms/{cat}')) == len(os.listdir(f'/content/drive/My Drive/Internship/Audio/{cat}')):
     print('OK')
   else:
     print('NOT OK')
@@ -92,8 +92,8 @@ def show_images(images):
 x = []
 y = []
 
-for i in range(2, 6):
-  images, labels = load_image_from_path(f'/content/drive/My Drive/Internship/Spectrograms/{i}', i)
+for cat in ['Persuasive', 'NonPersuasive']:
+  images, labels = load_image_from_path(f'/content/drive/My Drive/Internship/Spectrograms/{cat}', cat)
   show_images(images)
   x += images
   y += labels
@@ -102,14 +102,24 @@ for i in range(2, 6):
 
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, stratify=y, test_size=0.3, random_state=0)
 
 x_train_norm = np.array(x_train) / 255
 x_test_norm = np.array(x_test) / 255
 
-y_train_encoded = to_categorical(y_train)
-y_test_encoded = to_categorical(y_test)
+# Encode labels to numerical values
+label_encoder = LabelEncoder()
+y_train_encoded = label_encoder.fit_transform(y_train)
+y_test_encoded = label_encoder.transform(y_test)
+
+# Now you can apply to_categorical
+y_train_encoded = to_categorical(y_train_encoded)
+y_test_encoded = to_categorical(y_test_encoded)
+
+#y_train_encoded = to_categorical(y_train)
+#y_test_encoded = to_categorical(y_test)
 
 """## Build and train the CNN
 
@@ -132,7 +142,7 @@ model.add(Conv2D(128, (3, 3), activation='relu'))
 model.add(MaxPooling2D((2, 2)))
 model.add(Flatten())
 model.add(Dense(1024, activation='relu'))
-model.add(Dense(6, activation='softmax'))
+model.add(Dense(2, activation='softmax'))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 model.summary()
@@ -179,7 +189,7 @@ test_features = base_model.predict(x_test_norm)
 model = Sequential()
 model.add(Flatten(input_shape=train_features.shape[1:]))
 model.add(Dense(1024, activation='relu'))
-model.add(Dense(6, activation='softmax'))
+model.add(Dense(2, activation='softmax'))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 model.summary()
@@ -210,7 +220,7 @@ sns.set()
 
 y_predicted = model.predict(test_features)
 mat = confusion_matrix(y_test_encoded.argmax(axis=1), y_predicted.argmax(axis=1))
-class_labels = [ '2', '3', '4', '5']
+class_labels = ['Persuasive', 'NonPersuasive']
 sns.heatmap(mat, square=True, annot=True, fmt='d', cbar=False, cmap='Blues', xticklabels=class_labels, yticklabels=class_labels)
 plt.xlabel('Predicted label')
 plt.ylabel('True label')
