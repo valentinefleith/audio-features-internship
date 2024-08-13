@@ -154,3 +154,63 @@ plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
 plt.legend(loc='lower right')
 plt.show()
+
+"""## Use of transfer learning to improve accuracy
+
+Using sophisitcated CNNs trained by Google, Microsoft, etc. to be repurposed and used to solve domain-specific problems.
+Let's use `MobileNetV2`, a pretrained CNN from Google that is optimized for mobile devices, to extract features from spectrogram images.
+
+We start by calling Keras's MobileNetV2 function to instanciante the model without the classification layers. Then we use the `preprocess_input` fnuction for MobileNet networks and run both datasets througgh MobileNetV2 to extract features.
+"""
+
+from tensorflow.keras.applications import MobileNetV2
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+
+base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
+
+x_train_norm = preprocess_input(np.array(x_train))
+x_test_norm = preprocess_input(np.array(x_test))
+
+train_features = base_model.predict(x_train_norm)
+test_features = base_model.predict(x_test_norm)
+
+"""We define a neural network to classify features extracted by MobileNetV2."""
+
+model = Sequential()
+model.add(Flatten(input_shape=train_features.shape[1:]))
+model.add(Dense(1024, activation='relu'))
+model.add(Dense(6, activation='softmax'))
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+model.summary()
+
+"""Then train the network with features extracted by `MobileNetV2`."""
+
+hist = model.fit(train_features, y_train_encoded, epochs=10, validation_data=(test_features, y_test_encoded), batch_size=10)
+
+"""We plot the training and validation accuracy."""
+
+acc = hist.history['accuracy']
+val_acc = hist.history['val_accuracy']
+epochs = range(1, len(acc) + 1)
+
+plt.plot(epochs, acc, '-', label='Training accuracy')
+plt.plot(epochs, val_acc, ':', label='Validation accuracy')
+plt.title('Training and validation accuracy')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.legend(loc='lower right')
+plt.show()
+
+"""We run the test images through the network and use a confusion matrix to assess the results."""
+
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+sns.set()
+
+y_predicted = model.predict(test_features)
+mat = confusion_matrix(y_test_encoded.argmax(axis=1), y_predicted.argmax(axis=1))
+class_labels = [ '2', '3', '4', '5']
+sns.heatmap(mat, square=True, annot=True, fmt='d', cbar=False, cmap='Blues', xticklabels=class_labels, yticklabels=class_labels)
+plt.xlabel('Predicted label')
+plt.ylabel('True label')
