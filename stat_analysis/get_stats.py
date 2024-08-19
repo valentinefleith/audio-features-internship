@@ -13,14 +13,29 @@ def calculate_intensity_peaks_rate(sound, intensity_threshold, intensity_values)
 
 
 class Audio:
-    def __init__(self, id, avg_pitch, avg_intensity, intensity_peaks_rate):
+    def __init__(
+        self,
+        id,
+        avg_pitch,
+        avg_intensity,
+        intensity_peaks_rate,
+        pitch_variation,
+        intensity_variation,
+    ):
         self.id = id
         self.avg_pitch = avg_pitch
         self.avg_intensity = avg_intensity
         self.intensity_peaks_rate = intensity_peaks_rate
+        self.pitch_variation = pitch_variation
+        self.intensity_variation = intensity_variation
 
     def __repr__(self):
-        return f"Audio(id={self.id}, pitch={self.avg_pitch:.2f}, intensity={self.avg_intensity:.2f}, intensity_peaks_rate={self.intensity_peaks_rate:.2f})"
+        return (
+            f"Audio(id={self.id}, pitch={self.avg_pitch:.2f} Hz, intensity={self.avg_intensity:.2f} dB, "
+            f"intensity_peaks_rate={self.intensity_peaks_rate:.2f} peaks/sec, "
+            f"pitch_variation={self.pitch_variation:.2f} Hz, "
+            f"intensity_variation={self.intensity_variation:.2f} dB)"
+        )
 
     @staticmethod
     def new(filename):
@@ -38,7 +53,17 @@ class Audio:
         intensity_peaks_rate = calculate_intensity_peaks_rate(
             sound, average_intensity, intensity_values
         )
-        return Audio(id, average_pitch, average_intensity, intensity_peaks_rate)
+
+        pitch_variation = np.std(pitch_values)
+        intensity_variation = np.std(intensity_values)
+        return Audio(
+            id,
+            average_pitch,
+            average_intensity,
+            intensity_peaks_rate,
+            pitch_variation,
+            intensity_variation,
+        )
 
 
 def main():
