@@ -1,4 +1,5 @@
 import parselmouth as pm
+import textgrids as tgt
 import numpy as np
 import pandas as pd
 import glob
@@ -7,11 +8,27 @@ from tqdm import tqdm
 CORPUS_PATH = "../../corpus/wav/full"
 SAMPLE_PATH = "../../corpus/sample/wav"
 SCORES_PATH = "../../corpus/MT_aggregated_ratings.csv"
+TEXTGRID_PATH = "../../prosogram/corpus"
 
 
 def calculate_intensity_peaks_rate(sound, intensity_threshold, intensity_values):
     intensity_peaks = np.sum(intensity_values > intensity_threshold)
     return intensity_peaks / sound.duration
+
+def calculate_pause_stats(id, sound):
+    try:
+        textgrid = tgt.TextGrid(f"{TEXTGRID_PATH}/{id}.TextGrid")
+    except FileNotFoundError:
+        print(f"file not found: {id}")
+        return 0, 0
+    words = textgrid["words"]
+    pauses = []
+    for word in words:
+        if word.text == "":
+            pauses.append(word.xmax - word.xmin)
+    avg_len_pause = np.mean(pauses)
+    pause_rate = len(pauses) / sound.duration
+    return avg_len_pause, pause_rate
 
 
 class Audio:
@@ -23,6 +40,8 @@ class Audio:
         intensity_peaks_rate,
         pitch_variation,
         intensity_variation,
+        avg_len_pause,
+        pause_rate,
     ):
         self.id = id
         self.avg_pitch = avg_pitch
@@ -30,13 +49,17 @@ class Audio:
         self.intensity_peaks_rate = intensity_peaks_rate
         self.pitch_variation = pitch_variation
         self.intensity_variation = intensity_variation
+        self.avg_len_pause = avg_len_pause
+        self.pause_rate = pause_rate
 
     def __repr__(self):
         return (
             f"Audio(id={self.id}, pitch={self.avg_pitch:.2f} Hz, intensity={self.avg_intensity:.2f} dB, "
             f"intensity_peaks_rate={self.intensity_peaks_rate:.2f} peaks/sec, "
             f"pitch_variation={self.pitch_variation:.2f} Hz, "
-            f"intensity_variation={self.intensity_variation:.2f} dB)"
+            f"intensity_variation={self.intensity_variation:.2f} dB, "
+            f"avg_len_pause={self.avg_len_pause:.2f} s, "
+            f"pause_rate={self.pause_rate:.2f} pause/sec)"
         )
 
     @staticmethod
@@ -58,6 +81,8 @@ class Audio:
 
         pitch_variation = np.std(pitch_values)
         intensity_variation = np.std(intensity_values)
+
+        avg_len_pause, pause_rate = calculate_pause_stats(id, sound)
         return Audio(
             id,
             average_pitch,
@@ -65,6 +90,8 @@ class Audio:
             intensity_peaks_rate,
             pitch_variation,
             intensity_variation,
+            avg_len_pause,
+            pause_rate,
         )
 
 
