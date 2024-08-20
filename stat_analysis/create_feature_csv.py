@@ -70,7 +70,9 @@ class Audio:
 
 def get_scores():
     scores = pd.read_csv(SCORES_PATH)
-    return scores.query("`clip` == 'full' and `aggregationMethod` == 'mean'")[['id', 'persuasiveness']]
+    return scores.query("`clip` == 'full' and `aggregationMethod` == 'mean'")[
+        ["id", "persuasiveness"]
+    ]
 
 
 def main():
@@ -82,7 +84,7 @@ def main():
     print(audio_features_df)
     merged = pd.merge(audio_features_df, get_scores(), on="id").sort_values(by="id")
     print(merged)
-    merged.to_csv('../../corpus/merged_audio_features.csv', index=False)
+    merged.to_csv("../../corpus/merged_audio_features.csv", index=False)
 
 
 if __name__ == "__main__":
