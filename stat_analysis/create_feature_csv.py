@@ -1,10 +1,12 @@
 import parselmouth as pm
 import numpy as np
+import pandas as pd
 import glob
 from tqdm import tqdm
 
 CORPUS_PATH = "../../corpus/wav/full"
 SAMPLE_PATH = "../../corpus/sample/wav"
+SCORES_PATH = "../../corpus/MT_aggregated_ratings.csv"
 
 
 def calculate_intensity_peaks_rate(sound, intensity_threshold, intensity_values):
@@ -66,12 +68,21 @@ class Audio:
         )
 
 
+def get_scores():
+    scores = pd.read_csv(SCORES_PATH)
+    return scores.query("`clip` == 'full' and `aggregationMethod` == 'mean'")[['id', 'persuasiveness']]
+
+
 def main():
-    audio_filepaths = glob.glob(f"{SAMPLE_PATH}/*.wav")
-    file_list = []
+    audio_filepaths = glob.glob(f"{CORPUS_PATH}/*.wav")
+    audio_features = []
     for audio_file in tqdm(audio_filepaths):
-        file_list.append(Audio.new(audio_file))
-    print(file_list)
+        audio_features.append(Audio.new(audio_file).__dict__)
+    audio_features_df = pd.DataFrame(audio_features)
+    print(audio_features_df)
+    merged = pd.merge(audio_features_df, get_scores(), on="id").sort_values(by="id")
+    print(merged)
+    merged.to_csv('../../corpus/merged_audio_features.csv', index=False)
 
 
 if __name__ == "__main__":
