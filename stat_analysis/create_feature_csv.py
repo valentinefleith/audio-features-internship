@@ -112,7 +112,7 @@ def main():
     print(audio_features_df)
     merged = pd.merge(audio_features_df, get_scores(), on="id").sort_values(by="id")
     print(merged)
-    merged.to_csv("../../corpus/merged_audio_features.csv", index=False)
+    merged.to_csv("merged_audio_features.csv", index=False)
 
 
 if __name__ == "__main__":
