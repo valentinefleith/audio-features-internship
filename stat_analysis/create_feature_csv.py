@@ -8,12 +8,13 @@ from tqdm import tqdm
 CORPUS_PATH = "../../corpus/wav/full"
 SAMPLE_PATH = "../../corpus/sample/wav"
 SCORES_PATH = "../../corpus/MT_aggregated_ratings.csv"
-TEXTGRID_PATH = "../../prosogram/corpus"
+TEXTGRID_PATH = "../../corpus/alignments"
 
 
 def calculate_intensity_peaks_rate(sound, intensity_threshold, intensity_values):
     intensity_peaks = np.sum(intensity_values > intensity_threshold)
     return intensity_peaks / sound.duration
+
 
 def calculate_pause_stats(id, sound):
     try:
@@ -31,7 +32,7 @@ def calculate_pause_stats(id, sound):
     return avg_len_pause, pause_rate
 
 
-class Audio:
+class Features:
     def __init__(
         self,
         id,
@@ -54,7 +55,7 @@ class Audio:
 
     def __repr__(self):
         return (
-            f"Audio(id={self.id}, pitch={self.avg_pitch:.2f} Hz, intensity={self.avg_intensity:.2f} dB, "
+            f"Features(id={self.id}, pitch={self.avg_pitch:.2f} Hz, intensity={self.avg_intensity:.2f} dB, "
             f"intensity_peaks_rate={self.intensity_peaks_rate:.2f} peaks/sec, "
             f"pitch_variation={self.pitch_variation:.2f} Hz, "
             f"intensity_variation={self.intensity_variation:.2f} dB, "
@@ -83,7 +84,7 @@ class Audio:
         intensity_variation = np.std(intensity_values)
 
         avg_len_pause, pause_rate = calculate_pause_stats(id, sound)
-        return Audio(
+        return Features(
             id,
             average_pitch,
             average_intensity,
@@ -106,7 +107,7 @@ def main():
     audio_filepaths = glob.glob(f"{CORPUS_PATH}/*.wav")
     audio_features = []
     for audio_file in tqdm(audio_filepaths):
-        audio_features.append(Audio.new(audio_file).__dict__)
+        audio_features.append(Features.new(audio_file).__dict__)
     audio_features_df = pd.DataFrame(audio_features)
     print(audio_features_df)
     merged = pd.merge(audio_features_df, get_scores(), on="id").sort_values(by="id")

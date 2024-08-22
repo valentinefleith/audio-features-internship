@@ -50,7 +50,7 @@ def main():
         correlations[feature] = weighted_correlation(
             features_df[feature], persuasiveness_scores, weights
         )
-    with open('correlations.json', 'w') as f:
+    with open("correlations.json", "w") as f:
         json.dump(correlations, f)
     print(correlations)
 
