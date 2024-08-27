@@ -25,8 +25,8 @@ def filter_dataframe(df, dimension, liwc_columns, pitch_columns):
     Returns:
         pd.DataFrame: A filtered DataFrame containing only the target columns.
     """
-    # Select relevant columns: word, dimension (e.g., 'persuasiveness'), and LIWC & pitch columns
-    target_columns = ["word", f"{dimension}"]
+    # Select relevant columns: clip, word, dimension (e.g., 'persuasiveness'), and LIWC & pitch columns
+    target_columns = ["clip", "word", f"{dimension}"]
     target_columns.extend(pitch_columns)
     target_columns.extend(liwc_columns)
     filtered_df = df[target_columns]
@@ -122,6 +122,55 @@ def plot_dataframe(plot_df):
     # Display the plot
     plt.show()
 
+def find_extreme_words(filtered_df, liwc_columns, pitch_columns, min_persuasiveness, max_persuasiveness):
+    """
+    Finds words and their related LIWC categories that fall within a specified persuasiveness range.
+
+    Parameters:
+        filtered_df (pd.DataFrame): The DataFrame containing the data.
+        liwc_columns (list): List of LIWC category column names.
+        pitch_columns (list): List of pitch category column names.
+        min_persuasiveness (float): The minimum persuasiveness score to filter by.
+        max_persuasiveness (float): The maximum persuasiveness score to filter by.
+
+    Returns:
+        pd.DataFrame: A DataFrame of words with their corresponding LIWC categories, 
+                      pitch categories, clips, and persuasiveness scores within the specified range.
+    """
+    extreme_words = []
+
+    for _, row in filtered_df.iterrows():
+        word = row["word"]
+        clip = row["clip"]
+        persuasiveness = row["persuasiveness"]
+        
+        if min_persuasiveness >= persuasiveness or persuasiveness >= max_persuasiveness:
+            for pitch in pitch_columns:
+                if row[pitch] == 1:  # If the word has this pitch category
+                    for liwc in liwc_columns:
+                        if row[liwc] == 1:  # If the word belongs to this LIWC category
+                            extreme_words.append([word, clip, pitch, liwc, persuasiveness])
+
+    # Convert the list into a DataFrame
+    extreme_words_df = pd.DataFrame(extreme_words, columns=["Word", "Clip", "Pitch", "LIWC", "Persuasiveness"])
+    
+    return extreme_words_df
+
+
+def display_extreme_words(extreme_words_df):
+    """
+    Displays the words, pitch, and LIWC categories with extreme persuasiveness.
+
+    Parameters:
+        extreme_words_df (pd.DataFrame): DataFrame containing the extreme words and their categories.
+    """
+    if extreme_words_df.empty:
+        print("No words found within the specified persuasiveness range.")
+    else:
+        print("Words with extreme persuasiveness scores:")
+        print(extreme_words_df)
+        extreme_words_df.to_csv("extreme_words.csv")
+
 
 def main():
     """
@@ -129,17 +178,16 @@ def main():
 
     The function reads the dataset from a CSV file, filters it to include only relevant LIWC 
     and pitch categories, reshapes the data for analysis, and then visualizes the average 
-    persuasiveness across the different categories.
+    persuasiveness across the different categories. It also finds and displays words with 
+    extreme persuasiveness scores.
     """
     # Load the dataset from the CSV file
     df = pd.read_csv(CSV_PATH)
     
-    # Identify LIWC category columns (assuming continuous columns from 'BigWords' to 'Emoji')
     liwc_columns = df.columns[
-        df.columns.get_loc("BigWords") : df.columns.get_loc("Emoji") + 1
+        df.columns.get_loc("BigWords") : df.columns.get_loc("remplisseur") + 1
     ]
     
-    # List of pitch categories (assumed)
     pitch_columns = [
         "none",
         "L",
@@ -154,9 +202,16 @@ def main():
     
     # Reshape the data for plotting
     plot_df = reshape_data(filtered_df, liwc_columns, pitch_columns)
+    # print(plot_df)
     
     # Plot the reshaped data
     plot_dataframe(plot_df)
+    
+    # Find and display words with extreme persuasiveness
+    min_persuasiveness = 2.5
+    max_persuasiveness = 4.8
+    extreme_words_df = find_extreme_words(filtered_df, liwc_columns, pitch_columns, min_persuasiveness, max_persuasiveness)
+    display_extreme_words(extreme_words_df)
 
 
 if __name__ == "__main__":
