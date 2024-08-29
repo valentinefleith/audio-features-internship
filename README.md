@@ -41,5 +41,24 @@ We performed **binary classification** on persuasiveness and engagement. We used
 ![image](https://github.com/user-attachments/assets/f32a5dd7-5cbf-49e8-ad2c-847580de71d8)
 ![image](https://github.com/user-attachments/assets/b650574c-dfc7-4bd4-bb38-44aaff93ec5c)
 
+We also tried classification with audio and textual features together (concatenated). Best accuracy score = 0.5833 (almost random) with SVM.
 
+### Regression
+
+We performed **regression** also on persuasiveness and engagement. We used 5 different regression types: **Linear Regression, Ridge Regression, Lasso Regression, Elastic Net Regression and Random Forest Regression**. 
+This time we got the best scores using Root Mean Square as an aggregation method. Best result was with Random Forest Regression (*MAE = 0.261, RMSE = 0.365*). 
+
+![image](https://github.com/user-attachments/assets/59a8dfb9-5a8c-4049-ad74-f867122be4ff)
+
+We tried again to **concatenate audio and textual features**. Results were globally worse than audio features solely, except for Random Forest which was similar (best results again). _MAE = 0.245, RMSE = 0.372_.
+
+## New audio-textual features extraction
+
+### Audio-textual alignment
+
+We used the tool called **Montreal Forced Aligner** to generate transcript alignment. The tool uses a **pronunciation dictionary** and a pre-trained **acoustic model**. The acoustic model calculates how likely a phone is given the acoustic features, and the pronunciation dictionary is used to map words.
+
+It generates an aligned `TextGrid` with 2 tiers: phones and words. 
+Example:
+![image](https://github.com/user-attachments/assets/5899e271-4bd0-4985-be3f-f82fbceeb927)
 
