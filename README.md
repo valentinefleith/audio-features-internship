@@ -87,3 +87,25 @@ Example of a json file:
     	},
 …
 ```
+### Use of BERT embeddings
+Then, the goal of the experiment is to use BERT embeddings on those words and try new models to see if this may be linked with the quality of the public speech. The BERT part is unfinished yet.
+
+### Deep learning
+
+We tried to train CNN from the spectrograms of the audio files but it did not work very well.
+
+First we generated spectrograms using `librosa` python library :
+![image](https://github.com/user-attachments/assets/f61c0147-0137-4252-8ab1-8a07a556db47)
+
+Here the results:
+
+![image](https://github.com/user-attachments/assets/863b2224-d8ce-4423-a701-6678172b3f32)
+
+Then we tried to use a pre-trained model called `MobileNetV2` to maybe improve the accuracy on spectrogram, but it overfitted (probably because of unbalanced dataset).
+
+![image](https://github.com/user-attachments/assets/9a5a318b-ed89-466a-b3a0-ee3df0d666a2)
+
+## Audio-textual Pattern analysis
+
+We performed pattern analysis for audio and text simultaneously using LIWC categories and pitch levels of words.
+![image](https://github.com/user-attachments/assets/1c7fc145-7cdd-4cce-a9e6-3438f4a5bf2a)
