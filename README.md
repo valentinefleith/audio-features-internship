@@ -62,3 +62,28 @@ It generates an aligned `TextGrid` with 2 tiers: phones and words.
 Example:
 ![image](https://github.com/user-attachments/assets/5899e271-4bd0-4985-be3f-f82fbceeb927)
 
+### Stressed words extraction
+
+We used a tool called `Prosogram`, a part of it is called `Polytonia`. This tool analyses and transcripts the pitch variations in speech. It annotates the pitch levels and pitch movements in speech based on the syllables (if no syllable alignment is provided, it bases on the vowels). 
+The annotation in Polytonia distinguishes 5 pitch levels: **L (low), M (mid), H (high), B (bottom) and T (top)**. The first 3 are defined relative to one another; the latter 2 are defined relative to the pitch range of the speaker. In addition there are 5 pitch movements: **R (large rise), F (large fall), r (small rise), f (small fall), and _ (level)**. Levels and movements may be combined, e.g. HF indicates a large fall starting from a high pitch level.
+Example of output:
+
+![image](https://github.com/user-attachments/assets/b2aba3c2-0814-4232-97c4-82dcd83fdc48)
+
+The goal of our experiment is to extract some words in the audio based on their pitch level (for example, all of them who have an H or a L in them). What we want is to find out what words are stressed in speech. 
+
+For each data sample, we generated a json file containing words and their index in the transcription which are classed as high-pitched or low-pitched. 
+Example of a json file:
+```json
+{
+	"high": [
+    	{
+        	"word": "end",
+        	"index": 2
+    	},
+    	{
+        	"word": "maison",
+        	"index": 8
+    	},
+…
+```
