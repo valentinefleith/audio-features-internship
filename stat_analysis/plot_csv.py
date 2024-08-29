@@ -30,7 +30,7 @@ def filter_dataframe(df, dimension, liwc_columns, pitch_columns):
     target_columns.extend(pitch_columns)
     target_columns.extend(liwc_columns)
     filtered_df = df[target_columns]
-    return filtered_df
+    return filtered_df.query("`persuasiveness` >= 4.5")
 
 
 def reshape_data(filtered_df, liwc_columns, pitch_columns):
@@ -191,7 +191,7 @@ def main():
     ]
     
     pitch_columns = [
-        "none",
+        # "none",
         "L",
         "M",
         "H",
