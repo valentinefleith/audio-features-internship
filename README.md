@@ -107,5 +107,10 @@ Then we tried to use a pre-trained model called `MobileNetV2` to maybe improve t
 
 ## Audio-textual Pattern analysis
 
-We performed pattern analysis for audio and text simultaneously using LIWC categories and pitch levels of words.
+We performed pattern analysis for audio and text simultaneously using LIWC categories and pitch levels of words using the following pipeline:
+![image](https://github.com/user-attachments/assets/5d8f65fc-633a-4398-9b53-da3340846c8f)
+
+Our goal was to study the connexion between pitch and words in speech performance.
+
+
 ![image](https://github.com/user-attachments/assets/1c7fc145-7cdd-4cce-a9e6-3438f4a5bf2a)
